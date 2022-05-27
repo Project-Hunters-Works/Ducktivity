@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+
+.grid{
+    display: grid;
+    grid-template-rows: repeat(auto, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2.4rem;
+    margin: -6rem auto 4rem;
+    max-width: 96rem;
+    padding: 0 1rem 1.6rem;
+        
+        .unit{
+            background-color: #FFFFFF;
+            color: black;
+            font-size: 2vw;
+            padding: 2.4rem;
+            opacity: .95;
+            border: 1px solid white;
+            border-radius: 0.8rem;
+            min-height: auto;
+            max-width: 40rem;
+            min-width: 26rem;
+            cursor: pointer;
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 12px 0px;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            border-bottom-left-radius: 8px;
+            
+            .image{
+                justify-content: center;
+            }
+            
+            .topic{
+                border-radius: 0.4rem;
+                font-size: 1rem;
+                font-weight: 700;
+                padding: auto;
+                text-transform: uppercase;
+                border: 1px solid black;
+
+                &.time{
+                    letter-spacing: 1px;
+                    padding: 13px 50px 13px;
+                    outline: 0;
+                    border: 1px solid black;
+                    letter-spacing: 1px;
+                    cursor: pointer;
+                    position: relative;
+                    background-color: rgba(0, 0, 0, 0);
+                }
+                &.time::after{
+                    content: "";
+                    background-color: #ffe54c;
+                    width: 100%;
+                    z-index: -1;
+                    position: absolute;
+                    height: 100%;
+                    top: 7px;
+                    left: 7px;
+                    transition: 0.2s;
+                }
+                &.time:hover::after{
+                    top: 0px;
+                    left: 0px;
+                }
+                &.study{
+                    letter-spacing: 1px;
+                    padding: 13px 50px 13px;
+                    outline: 0;
+                    border: 1px solid black;
+                    letter-spacing: 1px;
+                    cursor: pointer;
+                    position: relative;
+                    background-color: rgba(0, 0, 0, 0);
+                }
+                &.study::after{
+                    content: "";
+                    background-color: #dcbaff;
+                    width: 100%;
+                    z-index: -1;
+                    position: absolute;
+                    height: 100%;
+                    top: 7px;
+                    left: 7px;
+                    transition: 0.2s;
+                }
+                &.study:hover::after{
+                    top: 0px;
+                    left: 0px;
+                }
+                &.malak{
+                    letter-spacing: 1px;
+                    padding: 13px 50px 13px;
+                    outline: 0;
+                    border: 1px solid black;
+                    letter-spacing: 1px;
+                    cursor: pointer;
+                    position: relative;
+                    background-color: rgba(0, 0, 0, 0);
+                }
+                &.malak::after{
+                    content: "";
+                    background-color: #66f2d5;
+                    width: 100%;
+                    z-index: -1;
+                    position: absolute;
+                    height: 100%;
+                    top: 7px;
+                    left: 7px;
+                    transition: 0.2s;
+                }
+                &.malak:hover::after{
+                    top: 0px;
+                    left: 0px;
+                }
+            }
+        }
+    }
