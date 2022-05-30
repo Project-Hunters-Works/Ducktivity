@@ -1,156 +1,118 @@
 
-$header-bcg : #66bdf4;
+$allbcg : #737272;
+$allbcghover : #3B3A40;
 
+$stbcg: #F2C84B;
+$stbcghover: #F2B035; 
 
-.header {
-    background: linear-gradient(
-      to right,
-      rgba( $header-bcg, 0.8),
-      rgba($header-bcg, 0.8)
-    ),
-    url(../../images/students-1807505_1920.jpg);
-  background-position: center center;
-  background-size: cover;
+$dmbcg: #D5B9F0;
+$dmbcghover: #BDA3D5;
+
+$psbcg: #67DDD1;
+$psbcghover: #30D5C8;
+
+$white-color-light : #eee;
+$white-color : #fff;
+
+$other-btn-color: #333;
+$other-btn-hover: #222;
+
+$header-bcg : #F0F0F2;
+
+@mixin color($par1, $par2) {
+    color: $par1;
+    background-color: $par2;
+    
     
 }
-.header {
-  // margin: 2rem;
-  height: 55vh;
-}
 
-.header__content {
-    
-    display: flex;
-    justify-content: space-evenly;
-    &--organize{
-        margin: 1rem;
-        text-align: center;
-        width: 50%;
-       
-        h2 {
-            font-size: 1.5rem;
-            margin: 1rem 0;
-            i {
-                margin-right: 1rem;
-            }   
-        }
-        p{
-            font-size: 3rem;
-            margin: 2rem 0;
-            font-weight: 700;
-           
-        }
-        button {
-            padding: 1rem;
-            width: 10rem;
-            border-radius: 50px;
-            font-weight: 700;
-            margin-bottom: 2rem;
-        }
-    }
-    &--pattern img{
-        height: 30vh;
-        width: 15vw;
-        margin: 1rem 6rem 1rem 4rem;
-    }
-    &--ss{
+.header {
+    // margin: 0 6rem;
+    // background-color: #D7D7D9;
+    background-color: $header-bcg;
+    &__content{
         display: flex;
-        justify-content: space-evenly;
-        margin-bottom: 1rem;
+        padding-bottom: 4rem;
+        justify-content: flex-start;
+        align-items: center;
+        
+        &--text {
+            width: 50%;
+            padding: 0 6rem;
+        }
+        &--text-h1p{
+            margin: 2rem 4rem 2rem 1rem;
+            // padding: 2rem;
+            h1{
+                font-size: 3rem;
+                margin-bottom: 2rem;
+                font-weight: 700;
+                color: #262626;
+                i {
+                    margin-right: 10px;
+                }
+            }
+            p{
+                font-size: 1.5rem;
+                margin-bottom: 4rem;
+                margin-right: 30%;
+                color: #595956;
+            }
+        }
+
+        &--ss{
+            display: flex;
+            justify-content: flex-start;
+
+                &-all button {
+                    @include color($white-color-light, $allbcg);
+                   
+                    &:hover{
+                        @include color($white-color, $allbcghover);
+                    }
+                }
+                &-st button{
+                    @include color($other-btn-color, $stbcg);
+        
+                    &:hover{
+                        @include color($other-btn-hover, $stbcghover);
+                    }
+                }
+                &-dm button{
+                    @include color($other-btn-color, $dmbcg);
+                    
+                    &:hover{
+                        @include color($other-btn-hover, $dmbcghover);
+                    }}
+                &-ps button{
+                    @include color($other-btn-color, $psbcg);
+                    
+        
+                    &:hover{
+                        @include color($other-btn-hover, $psbcghover);
+                    }
+                }    
+                
+        }
+
+        button {
+        padding: 0.5rem 1rem;
+        margin: 0.5rem;
+        font-size: 0.8rem;
+        border: none;
+        font-weight: 600;
+        border-radius: 5px;
+
+        }
+
+
+        &--img img {
+            width: 30rem;
+            height: 20rem;
+            margin-top: 1rem;
+            margin-left: 3rem;
+            
+
+        }
     }
 }
-
-
-.custom-btn {
-    width: 130px;
-    height: 40px;
-    color: #fff;
-    border-radius: 5px;
-    padding: 10px 25px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 500;
-    background: transparent;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
-     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-     7px 7px 20px 0px rgba(0,0,0,.1),
-     4px 4px 5px 0px rgba(0,0,0,.1);
-    outline: none;
-    margin: 10px;
-  }
-
-.btn-7 {
-    background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
-      line-height: 42px;
-      padding: 0;
-      border: none;
-    }
-    .btn-7 span {
-      position: relative;
-      display: block;
-      width: 100%;
-      height: 100%;
-    }
-    .btn-7:before,
-    .btn-7:after {
-      position: absolute;
-      content: "";
-      right: 0;
-      bottom: 0;
-      background: rgba(251,75,2,1);
-      box-shadow:
-       -7px -7px 20px 0px rgba(255,255,255,.9),
-       -4px -4px 5px 0px rgba(255,255,255,.9),
-       7px 7px 20px 0px rgba(0,0,0,.2),
-       4px 4px 5px 0px rgba(0,0,0,.3);
-      transition: all 0.3s ease;
-    }
-    .btn-7:before{
-       height: 0%;
-       width: 2px;
-    }
-    .btn-7:after {
-      width: 0%;
-      height: 2px;
-    }
-    .btn-7:hover{
-      // color: rgba(251,75,2,1);
-      color: black;
-      background: transparent;
-    }
-    .btn-7:hover:before {
-      height: 100%;
-    }
-    .btn-7:hover:after {
-      width: 100%;
-    }
-    .btn-7 span:before,
-    .btn-7 span:after {
-      position: absolute;
-      content: "";
-      left: 0;
-      top: 0;
-      background: rgba(251,75,2,1);
-      box-shadow:
-       -7px -7px 20px 0px rgba(255,255,255,.9),
-       -4px -4px 5px 0px rgba(255,255,255,.9),
-       7px 7px 20px 0px rgba(0,0,0,.2),
-       4px 4px 5px 0px rgba(0,0,0,.3);
-      transition: all 0.3s ease;
-    }
-    .btn-7 span:before {
-      width: 2px;
-      height: 0%;
-    }
-    .btn-7 span:after {
-      height: 2px;
-      width: 0%;
-    }
-    .btn-7 span:hover:before {
-      height: 100%;
-    }
-    .btn-7 span:hover:after {
-      width: 100%;
-    }

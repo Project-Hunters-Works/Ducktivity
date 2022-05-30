@@ -5,6 +5,17 @@
   font-family: 'Roboto Mono', monospace;
 }
 
+
+p{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+
+
 @import './nav';
 @import './header';
 @import './main';
@@ -14,11 +25,4 @@
 
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
 
-  
-p{
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
+
