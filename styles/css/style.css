@@ -4,6 +4,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 .header {
@@ -452,20 +461,6 @@ footer .footer_container .info a:last-child {
   footer .footer_container .info a {
     font-size: 2rem;
   }
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Roboto Mono", monospace;
-}
-
-p {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
 }
 
 /*# sourceMappingURL=style.css.map */
