@@ -7,6 +7,7 @@
   font-family: "Roboto Mono", monospace;
 }
 
+
 p {
   display: block;
   margin-block-start: 1em;
@@ -95,6 +96,7 @@ p {
   height: 20rem;
   margin-top: 1rem;
   margin-left: 3rem;
+
 }
 
 .grid {
@@ -462,5 +464,6 @@ footer .footer_container .info a:last-child {
     font-size: 2rem;
   }
 }
+
 
 /*# sourceMappingURL=style.css.map */
