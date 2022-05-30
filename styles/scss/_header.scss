@@ -1,375 +1,123 @@
-header {
-    height: 45vh;
-    display: flex;
-    justify-content: flex-start;
-    background-image: url(./images/education-day-assortment-with-copy-space.jpg);
-    background-size: cover;
-    background-position: right;
-    background-repeat: no-repeat;
-    max-width: 90%;
-    margin: 20px auto;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-$header__sorting--all-color: #0a171C;
-$header__sorting--st-color: #9B51E0;
-$header__sorting--dm-color: #2779A7;
-$header__sorting--ps-color: #0b843e;
-$header__sorting--cm-color: #e0822F;
-$white-color: #fff;
+$allbcg : #737272;
+$allbcghover : #3B3A40;
 
-@mixin color($par1) {
+$stbcg: #F2C84B;
+$stbcghover: #F2B035; 
+
+$dmbcg: #D5B9F0;
+$dmbcghover: #BDA3D5;
+
+$psbcg: #67DDD1;
+$psbcghover: #30D5C8;
+
+$white-color-light : #eee;
+$white-color : #fff;
+
+$other-btn-color: #333;
+$other-btn-hover: #222;
+
+$header-bcg : #F0F0F2;
+
+@mixin color($par1, $par2) {
     color: $par1;
-    border: 2px solid $par1;
-    border-radius: 0.6rem;
+    background-color: $par2;
+    
+    
 }
-.header__content {
-    color: $white-color;
-    width: 50%;
-    &--h2 {
-        text-align: center;
-        margin-top: 1.5rem;
-        margin-bottom: 1rem;
-        font-weight: 900;
-       
-    }
-    &--p {
-        text-align: center;
-        max-width: 70rem;
-        margin: 0 auto;
-        // margin-bottom: 3rem;
-    }
-    &--ss{ 
+
+.header {
+    // margin: 0 6rem;
+    // background-color: #D7D7D9;
+    background-color: $header-bcg;
+    &__content{
         display: flex;
-        justify-content: center;
-        align-items: flex-end;
-        flex-wrap: wrap;
-        height: 8rem;
-
-        a {
-            text-decoration: none;
-            padding: 8px;
-            font-size: 14px;
-            text-align: center;
-            font-weight: 700;
-            margin: 5px;
-            transition: 0.2s all;
+        padding-bottom: 4rem;
+        justify-content: flex-start;
+        align-items: center;
+        
+        &--text {
+            width: 50%;
+            padding: 0 6rem;
         }
-        &-all a{
-            @include color($header__sorting--all-color);
+        &--text-h1p{
+            margin: 2rem 4rem 2rem 1rem;
+            // padding: 2rem;
+            h1{
+                font-size: 3rem;
+                margin-bottom: 2rem;
+                font-weight: 700;
+                color: #262626;
+                i {
+                    margin-right: 10px;
+                }
+            }
+            p{
+                font-size: 1.5rem;
+                margin-bottom: 4rem;
+                margin-right: 30%;
+                color: #595956;
+            }
+        }
+
+        &--ss{
+            display: flex;
+            justify-content: flex-start;
+
+                &-all button {
+                    @include color($white-color-light, $allbcg);
+                   
+                    &:hover{
+                        @include color($white-color, $allbcghover);
+                    }
+                }
+                &-st button{
+                    @include color($other-btn-color, $stbcg);
+        
+                    &:hover{
+                        @include color($other-btn-hover, $stbcghover);
+                    }
+                }
+                &-dm button{
+                    @include color($other-btn-color, $dmbcg);
+                    
+                    &:hover{
+                        @include color($other-btn-hover, $dmbcghover);
+                    }}
+                &-ps button{
+                    @include color($other-btn-color, $psbcg);
+                    
+        
+                    &:hover{
+                        @include color($other-btn-hover, $psbcghover);
+                    }
+                }    
+                
+        }
+
+        button {
+        padding: 0.5rem 1rem;
+        margin: 0.5rem;
+        font-size: 0.8rem;
+        border: none;
+        font-weight: 600;
+        border-radius: 5px;
+
+        }
+
+
+        &--img img {
+            width: 30rem;
+            height: 20rem;
+            margin-top: 1rem;
+            margin-left: 3rem;
             
-            &:hover{
-                background-color: $header__sorting--all-color;
-                color: $white-color;
-            }
-        }
-        &-st a{
-            @include color($header__sorting--st-color);
 
-            &:hover{
-                background-color: $header__sorting--st-color;
-                color: $white-color;
-            }
         }
-        &-dm a{
-            @include color($header__sorting--dm-color);
-            
-            &:hover{
-                background-color: $header__sorting--dm-color;
-                color: $white-color;
-            }}
-        &-ps a{
-            @include color($header__sorting--ps-color);
-
-            &:hover{
-                background-color: $header__sorting--ps-color;
-                color: $white-color;
-            }
-        }
-        &-cm a{
-            @include color($header__sorting--cm-color);
-
-            &:hover{
-                background-color: $header__sorting--cm-color;
-                color: $white-color;
-            }
-        }
-
     }
 }
-
-.custom-btn {
-    width: 130px;
-    height: 40px;
-    color: #fff;
-    border-radius: 5px;
-    padding: 10px 25px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 500;
-    background: transparent;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
-     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-     7px 7px 20px 0px rgba(0,0,0,.1),
-     4px 4px 5px 0px rgba(0,0,0,.1);
-    outline: none;
-    margin: 10px;
-  }
-
-.btn-7 {
-    background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
-      line-height: 42px;
-      padding: 0;
-      border: none;
-    }
-    .btn-7 span {
-      position: relative;
-      display: block;
-      width: 100%;
-      height: 100%;
-    }
-    .btn-7:before,
-    .btn-7:after {
-      position: absolute;
-      content: "";
-      right: 0;
-      bottom: 0;
-      background: rgba(251,75,2,1);
-      box-shadow:
-       -7px -7px 20px 0px rgba(255,255,255,.9),
-       -4px -4px 5px 0px rgba(255,255,255,.9),
-       7px 7px 20px 0px rgba(0,0,0,.2),
-       4px 4px 5px 0px rgba(0,0,0,.3);
-      transition: all 0.3s ease;
-    }
-    .btn-7:before{
-       height: 0%;
-       width: 2px;
-    }
-    .btn-7:after {
-      width: 0%;
-      height: 2px;
-    }
-    .btn-7:hover{
-      color: rgba(251,75,2,1);
-      background: transparent;
-    }
-    .btn-7:hover:before {
-      height: 100%;
-    }
-    .btn-7:hover:after {
-      width: 100%;
-    }
-    .btn-7 span:before,
-    .btn-7 span:after {
-      position: absolute;
-      content: "";
-      left: 0;
-      top: 0;
-      background: rgba(251,75,2,1);
-      box-shadow:
-       -7px -7px 20px 0px rgba(255,255,255,.9),
-       -4px -4px 5px 0px rgba(255,255,255,.9),
-       7px 7px 20px 0px rgba(0,0,0,.2),
-       4px 4px 5px 0px rgba(0,0,0,.3);
-      transition: all 0.3s ease;
-    }
-    .btn-7 span:before {
-      width: 2px;
-      height: 0%;
-    }
-    .btn-7 span:after {
-      height: 2px;
-      width: 0%;
-    }
-    .btn-7 span:hover:before {
-      height: 100%;
-    }
-    .btn-7 span:hover:after {
-      width: 100%;
-    }
-
-
-
-    .btn-3 {
-        background: rgb(0,172,238);
-      background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
-        width: 130px;
-        height: 40px;
-        line-height: 42px;
-        padding: 0;
-        border: none;
-        
-      }
-      .btn-3 span {
-        position: relative;
-        display: block;
-        width: 100%;
-        height: 100%;
-      }
-      .btn-3:before,
-      .btn-3:after {
-        position: absolute;
-        content: "";
-        right: 0;
-        top: 0;
-         background: rgba(2,126,251,1);
-        transition: all 0.3s ease;
-      }
-      .btn-3:before {
-        height: 0%;
-        width: 2px;
-      }
-      .btn-3:after {
-        width: 0%;
-        height: 2px;
-      }
-      .btn-3:hover{
-         background: transparent;
-        box-shadow: none;
-      }
-      .btn-3:hover:before {
-        height: 100%;
-      }
-      .btn-3:hover:after {
-        width: 100%;
-      }
-      .btn-3 span:hover{
-         color: rgba(2,126,251,1);
-      }
-      .btn-3 span:before,
-      .btn-3 span:after {
-        position: absolute;
-        content: "";
-        left: 0;
-        bottom: 0;
-         background: rgba(2,126,251,1);
-        transition: all 0.3s ease;
-      }
-      .btn-3 span:before {
-        width: 2px;
-        height: 0%;
-      }
-      .btn-3 span:after {
-        width: 0%;
-        height: 2px;
-      }
-      .btn-3 span:hover:before {
-        height: 100%;
-      }
-      .btn-3 span:hover:after {
-        width: 100%;
-      }
-
-      .btn-5 {
-        width: 130px;
-        height: 40px;
-        line-height: 42px;
-        padding: 0;
-        border: none;
-        background: rgb(255,27,0);
-      background: linear-gradient(0deg, rgba(255,27,0,1) 0%, rgba(251,75,2,1) 100%);
-      }
-      .btn-5:hover {
-        color: #f0094a;
-        background: transparent;
-         box-shadow:none;
-      }
-      .btn-5:before,
-      .btn-5:after{
-        content:'';
-        position:absolute;
-        top:0;
-        right:0;
-        height:2px;
-        width:0;
-        background: #f0094a;
-        box-shadow:
-         -1px -1px 5px 0px #fff,
-         7px 7px 20px 0px #0003,
-         4px 4px 5px 0px #0002;
-        transition:400ms ease all;
-      }
-      .btn-5:after{
-        right:inherit;
-        top:inherit;
-        left:0;
-        bottom:0;
-      }
-      .btn-5:hover:before,
-      .btn-5:hover:after{
-        width:100%;
-        transition:800ms ease all;
-      }
-      
-      
-      .btn-12{
-        position: relative;
-        right: 20px;
-        bottom: 20px;
-        border:none;
-        box-shadow: none;
-        width: 130px;
-        height: 40px;
-        line-height: 42px;
-        -webkit-perspective: 230px;
-        perspective: 230px;
-      }
-      .btn-12 span {
-        background: rgb(0,172,238);
-      background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
-        display: block;
-        position: absolute;
-        width: 130px;
-        height: 40px;
-        box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-         7px 7px 20px 0px rgba(0,0,0,.1),
-         4px 4px 5px 0px rgba(0,0,0,.1);
-        border-radius: 5px;
-        margin:0;
-        text-align: center;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-        -webkit-transition: all .3s;
-        transition: all .3s;
-      }
-      .btn-12 span:nth-child(1) {
-        box-shadow:
-         -7px -7px 20px 0px #fff9,
-         -4px -4px 5px 0px #fff9,
-         7px 7px 20px 0px #0002,
-         4px 4px 5px 0px #0001;
-        -webkit-transform: rotateX(90deg);
-        -moz-transform: rotateX(90deg);
-        transform: rotateX(90deg);
-        -webkit-transform-origin: 50% 50% -20px;
-        -moz-transform-origin: 50% 50% -20px;
-        transform-origin: 50% 50% -20px;
-      }
-      .btn-12 span:nth-child(2) {
-        -webkit-transform: rotateX(0deg);
-        -moz-transform: rotateX(0deg);
-        transform: rotateX(0deg);
-        -webkit-transform-origin: 50% 50% -20px;
-        -moz-transform-origin: 50% 50% -20px;
-        transform-origin: 50% 50% -20px;
-      }
-      .btn-12:hover span:nth-child(1) {
-        box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-         7px 7px 20px 0px rgba(0,0,0,.1),
-         4px 4px 5px 0px rgba(0,0,0,.1);
-        -webkit-transform: rotateX(0deg);
-        -moz-transform: rotateX(0deg);
-        transform: rotateX(0deg);
-      }
-      .btn-12:hover span:nth-child(2) {
-        box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-         7px 7px 20px 0px rgba(0,0,0,.1),
-         4px 4px 5px 0px rgba(0,0,0,.1);
-       color: transparent;
-        -webkit-transform: rotateX(-90deg);
-        -moz-transform: rotateX(-90deg);
-        transform: rotateX(-90deg);
-      }
