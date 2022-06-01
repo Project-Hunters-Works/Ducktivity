@@ -15,13 +15,12 @@ p{
 }
 
 
-
+@import './variables';
+@import './mixin';
 @import './nav';
 @import './header';
 @import './main';
 @import './footer';
-@import './mixin';
-@import './variables';
 @import './methot-1';
 
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
