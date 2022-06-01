@@ -22,27 +22,16 @@ $header-bcg : #F0F0F2;
 @mixin color($par1, $par2) {
     color: $par1;
     background-color: $par2;
-    
-    
 }
 
 .header {
-    // margin: 0 6rem;
-    // background-color: #D7D7D9;
     background-color: $header-bcg;
     &__content{
         display: flex;
-        padding-bottom: 4rem;
-        justify-content: flex-start;
+        justify-content: space-around;
         align-items: center;
-        
-        &--text {
-            width: 50%;
-            padding: 0 6rem;
-        }
+        padding: 0 6rem 8rem 6rem;
         &--text-h1p{
-            margin: 2rem 4rem 2rem 1rem;
-            // padding: 2rem;
             h1{
                 font-size: 3rem;
                 margin-bottom: 2rem;
@@ -105,14 +94,9 @@ $header-bcg : #F0F0F2;
 
         }
 
-
         &--img img {
-            width: 30rem;
-            height: 20rem;
-            margin-top: 1rem;
-            margin-left: 3rem;
-            
-
+            width: 100%;
+            height: 80%;
         }
     }
 }
