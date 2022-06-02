@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400;500;600;700&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
 * {
   margin: 0;
@@ -616,7 +616,6 @@ footer .footer_container .info a {
 .main-container .methot-text p {
   text-indent: 5rem;
   line-height: 2rem;
-  font-weight: 600;
 }
 .main-container .methot-text img {
   display: block;
@@ -624,13 +623,6 @@ footer .footer_container .info a {
   max-width: 100%;
   max-height: 100%;
 }
-.main-container .methot-text h2 {
-  font-weight: bold;
-}
-.main-container .methot-text h3 {
-  font-weight: 800;
-}
-
 @media (max-width: 600px) {
   .content-header {
     width: 90%;
