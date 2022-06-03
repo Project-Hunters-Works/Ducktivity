@@ -6,12 +6,11 @@
 
 .main-container {
     height: 100%;
-    width: 70%;
+    width: 60%;
     margin: auto;
     .content-header{
         min-width: 300px;
         height: 300px;
-        background-color: plum;
         margin: auto;
         transform: translateY(-50%);
         display: flex;
@@ -133,7 +132,9 @@
     }
     .methot-text {
         transform: translateY(-100px);
-        padding: 0 5rem;
+        // padding: 0 5rem;
+        max-width: 700px;
+        margin: auto;
         p {
             text-indent: 5rem;
             line-height: 2rem;
@@ -164,6 +165,7 @@
     .main-container{
         width: 90%;
         .methot-text{
+            width: 100%;
             padding: 1rem;
             p {
                 text-indent: 2rem;
@@ -184,6 +186,28 @@
         width: 90%;
         .methot-text{
             padding: 1rem;
+            width: 90%;
+            p {
+                text-indent: 2rem;
+                line-height: 1.8rem;
+            }
+        }
+    }
+    
+}
+
+@media (max-width:1200px) {
+    .content-header{
+        width: 90%;
+        img{
+            display: none;
+        }
+    }
+    .main-container{
+        width: 90%;
+        .methot-text{
+            padding: 1rem;
+            width: 90%;
             p {
                 text-indent: 2rem;
                 line-height: 1.8rem;
