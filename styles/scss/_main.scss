@@ -8,9 +8,7 @@
     margin: -6rem auto 4rem;
     max-width: 96rem;
     padding: 0 1rem 1.6rem;
-     a{
-         text-decoration: none;
-     }   
+       
         .unit{
             background-color: #FFFFFF;
             color: black;
@@ -27,6 +25,11 @@
             border-top-left-radius: 8px;
             border-top-right-radius: 8px;
             border-bottom-left-radius: 8px;
+
+            a{
+                text-decoration: none;
+                color: black;
+            }
             
             .image{
                 justify-content: center;

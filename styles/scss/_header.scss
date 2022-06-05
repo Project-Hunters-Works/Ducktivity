@@ -1,22 +1,12 @@
 
 $allbcg : #737272;
 $allbcghover : #3B3A40;
-
-$stbcg: #F2C84B;
 $stbcghover: #F2B035; 
-
-$dmbcg: #D5B9F0;
 $dmbcghover: #BDA3D5;
-
 $psbcg: #67DDD1;
 $psbcghover: #30D5C8;
-
 $white-color-light : #eee;
-$white-color : #fff;
-
 $other-btn-color: #333;
-$other-btn-hover: #222;
-
 $header-bcg : #F0F0F2;
 
 @mixin color($par1, $par2) {
@@ -36,7 +26,7 @@ $header-bcg : #F0F0F2;
                 font-size: 3rem;
                 margin-bottom: 2rem;
                 font-weight: 700;
-                color: #262626;
+                color: $h1-color;
                 i {
                     margin-right: 10px;
                 }
@@ -45,7 +35,7 @@ $header-bcg : #F0F0F2;
                 font-size: 1.5rem;
                 margin-bottom: 4rem;
                 margin-right: 30%;
-                color: #595956;
+                color: $p-color;
             }
         }
 
@@ -57,28 +47,28 @@ $header-bcg : #F0F0F2;
                     @include color($white-color-light, $allbcg);
                    
                     &:hover{
-                        @include color($white-color, $allbcghover);
+                        @include color($white, $allbcghover);
                     }
                 }
                 &-st button{
-                    @include color($other-btn-color, $stbcg);
+                    @include color($other-btn-color, $yellow);
         
                     &:hover{
-                        @include color($other-btn-hover, $stbcghover);
+                        @include color($h1-color, $stbcghover);
                     }
                 }
                 &-dm button{
-                    @include color($other-btn-color, $dmbcg);
+                    @include color($other-btn-color, $purple);
                     
                     &:hover{
-                        @include color($other-btn-hover, $dmbcghover);
+                        @include color($h1-color, $dmbcghover);
                     }}
                 &-ps button{
-                    @include color($other-btn-color, $psbcg);
+                    @include color($other-btn-color, $light-blue);
                     
         
                     &:hover{
-                        @include color($other-btn-hover, $psbcghover);
+                        @include color($h1-color, $psbcghover);
                     }
                 }    
                 
@@ -87,7 +77,7 @@ $header-bcg : #F0F0F2;
         button {
         padding: 0.5rem 1rem;
         margin: 0.5rem;
-        font-size: 0.8rem;
+        font-size: 1rem;
         border: none;
         font-weight: 600;
         border-radius: 5px;
@@ -100,3 +90,15 @@ $header-bcg : #F0F0F2;
         }
     }
 }
+
+.hide {
+    display: none;
+  }
+
+  @media (max-width:1200px){
+    .header__content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+  }
