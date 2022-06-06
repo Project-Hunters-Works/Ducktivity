@@ -31,8 +31,11 @@
             }
             
             .image{
-                justify-content: center;
-            }
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 40%;
+              }
             
             .topic{
                 border-radius: 0.4rem;
