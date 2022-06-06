@@ -100,17 +100,16 @@ p {
 }
 .grid {
   display: grid;
-  grid-template-rows: repeat(auto, 1fr);
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(auto-fit, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(1vw, 400px));
   grid-gap: 2.4rem;
   margin: -6rem auto 4rem;
-  max-width: 96rem;
   padding: 0 1rem 1.6rem;
 }
 .grid .unit {
   background-color: #FFFFFF;
   color: black;
-  font-size: 2vw;
+  font-size: inherit;
   padding: 2.4rem;
   opacity: 0.95;
   border: 1px solid white;
