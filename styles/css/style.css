@@ -116,7 +116,6 @@ p {
   border-radius: 0.8rem;
   min-height: auto;
   max-width: 40rem;
-  min-width: 26rem;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 12px 0px;
   border-top-left-radius: 8px;
@@ -133,11 +132,18 @@ p {
   margin-right: auto;
   width: 40%;
 }
+.grid .unit h2 {
+  margin-bottom: 1.5vw;
+}
+.grid .unit p {
+  margin-bottom: 1.5vw;
+}
 .grid .unit .topic {
   border-radius: 0.4rem;
   font-size: 1rem;
   font-weight: 700;
   padding: auto;
+  margin-bottom: 1.5vw;
   text-transform: uppercase;
   border: 1px solid black;
 }
