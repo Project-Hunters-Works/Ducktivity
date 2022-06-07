@@ -1,2 +1,2 @@
-# Study-Methods
-[Click](https://project-hunters-works.github.io/Study-Methods/)
+# Ductivity
+# [Click here to see on browser](https://project-hunters-works.github.io/Ducktivity/)
