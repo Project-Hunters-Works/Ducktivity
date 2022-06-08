@@ -136,11 +136,11 @@ p {
   margin-bottom: 1.5vw;
 }
 .grid .unit p {
-  margin-bottom: 1.5vw;
+  margin: 2vw 0;
 }
 .grid .unit .topic {
   border-radius: 0.4rem;
-  font-size: 1rem;
+  font-size: 0.7rem;
   font-weight: 700;
   padding: auto;
   margin-bottom: 1.5vw;
@@ -527,7 +527,8 @@ footer .footer_container .info a {
   border-bottom-left-radius: 8px;
 }
 .main-container .content-header .header-img {
-  align-items: left;
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
 .main-container .content-header .header-text {
