@@ -236,6 +236,7 @@ p {
   left: 0px;
 }
 
+/*------------------------------------FOOTER---------------------------------*/
 .outer {
   height: 30vh;
   display: flex;
@@ -251,6 +252,7 @@ p {
 }
 .outer .left-duck img {
   width: 80%;
+  display: none;
 }
 .outer .right-duck {
   width: 15%;
@@ -261,6 +263,7 @@ p {
 }
 .outer .right-duck img {
   width: 80%;
+  display: none;
 }
 .outer .contact {
   width: 70%;
@@ -296,16 +299,16 @@ p {
   left: 100%;
 }
 .outer .contact .rainbow span:first-child {
-  background-color: #DEBEFF;
+  background-color: #dcbaff;
 }
 .outer .contact .rainbow span:first-child:after {
   background-color: #e98ab1;
 }
 .outer .contact .rainbow span:last-child {
-  background: #FFE655;
+  background: #ffe54c;
 }
 .outer .contact .rainbow span:last-child:after {
-  background: #6EF3D7;
+  background: #66f2d5;
 }
 .outer .contact .email-content {
   width: 96%;
@@ -314,7 +317,7 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: #fff;
+  background: #ffffff;
   padding: 0.7rem;
   display: flex;
   flex-direction: column;
@@ -341,13 +344,12 @@ p {
   flex-direction: column;
 }
 .outer .contact .email-content .form input:hover, .outer .contact .email-content .form input:active, .outer .contact .email-content .form input:focus {
-  border-color: #DEBEFF;
+  border-color: #dcbaff;
 }
 .outer .contact .email-content .form [type=submit] {
-  background: #FFE655;
-  border-color: #FFE655;
+  background: #ffe54c;
+  border-color: #ffe54c;
   border-radius: 0.5rem;
-  color: black;
   font-weight: 600;
   margin-top: 0.5rem;
   padding: 0.2rem 0.3rem;
@@ -377,7 +379,7 @@ p {
 }
 
 footer {
-  background-image: linear-gradient(white, #a6a6a6);
+  background-image: linear-gradient(#ffffff, #737272);
   padding: 1rem 0.5rem 0.5rem 0.5rem;
 }
 footer .footer_container {
@@ -408,7 +410,7 @@ footer .footer_container .middle .cookies {
   width: 50%;
 }
 footer .footer_container .middle .cookies div a {
-  color: black;
+  color: #000;
 }
 footer .footer_container .info {
   display: flex;
@@ -418,8 +420,11 @@ footer .footer_container .info {
 }
 footer .footer_container .info a {
   padding: 0.3rem;
-  color: #595959;
+  color: #333;
   font-size: 1.2rem;
+}
+footer .footer_container .info a:hover {
+  color: #000;
 }
 
 @media (min-width: 500px) {
@@ -487,17 +492,20 @@ footer .footer_container .info a {
   }
 }
 @media (min-width: 900px) {
-  .contact .email-content {
+  .outer .left-duck img, .outer .right-duck img {
+    display: block;
+  }
+  .outer .contact .email-content {
     padding: 1rem;
   }
-  .contact .email-content .title {
+  .outer .contact .email-content .title {
     font-size: 1.5rem;
   }
-  .contact .email-content .description {
+  .outer .contact .email-content .description {
     font-size: 1rem;
     padding: 0.3rem;
   }
-  .contact .email-content .form .input {
+  .outer .contact .email-content .form .input {
     padding: 0.5rem;
   }
 
