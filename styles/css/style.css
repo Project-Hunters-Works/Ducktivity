@@ -548,8 +548,7 @@ footer .footer_container .info a:hover {
   border-bottom-left-radius: 8px;
 }
 .main-container .content-header .header-img {
-  display: flex;
-  align-items: center;
+  align-items: left;
   justify-content: center;
 }
 .main-container .content-header .header-text {
