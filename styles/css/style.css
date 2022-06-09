@@ -255,7 +255,7 @@ p {
   align-items: center;
 }
 .outer .left-duck img {
-  width: 80%;
+  width: 10rem;
   display: none;
 }
 .outer .right-duck {
@@ -266,7 +266,7 @@ p {
   align-items: center;
 }
 .outer .right-duck img {
-  width: 80%;
+  width: 10rem;
   display: none;
 }
 .outer .contact {
