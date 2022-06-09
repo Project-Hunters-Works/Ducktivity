@@ -15,6 +15,10 @@ p {
   margin-inline-end: 0px;
 }
 
+.navbar-brand {
+  font-size: 1.6rem;
+}
+
 .header {
   background-color: #F0F0F2;
 }
