@@ -15,6 +15,10 @@ p {
   margin-inline-end: 0px;
 }
 
+.navbar-brand {
+  font-size: 1.6rem;
+}
+
 .header {
   background-color: #F0F0F2;
 }
@@ -548,7 +552,8 @@ footer .footer_container .info a:hover {
   border-bottom-left-radius: 8px;
 }
 .main-container .content-header .header-img {
-  align-items: left;
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
 .main-container .content-header .header-text {
