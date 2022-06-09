@@ -251,7 +251,7 @@ p {
   align-items: center;
 }
 .outer .left-duck img {
-  width: 80%;
+  width: 10rem;
   display: none;
 }
 .outer .right-duck {
@@ -262,7 +262,7 @@ p {
   align-items: center;
 }
 .outer .right-duck img {
-  width: 80%;
+  width: 10rem;
   display: none;
 }
 .outer .contact {
@@ -548,7 +548,8 @@ footer .footer_container .info a:hover {
   border-bottom-left-radius: 8px;
 }
 .main-container .content-header .header-img {
-  align-items: left;
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
 .main-container .content-header .header-text {
