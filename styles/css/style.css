@@ -153,11 +153,11 @@ p {
   margin-bottom: 1.5vw;
 }
 .grid .unit p {
-  margin-bottom: 1.5vw;
+  margin: 2vw 0;
 }
 .grid .unit .topic {
   border-radius: 0.4rem;
-  font-size: 1rem;
+  font-size: 0.7rem;
   font-weight: 700;
   padding: auto;
   margin-bottom: 1.5vw;
