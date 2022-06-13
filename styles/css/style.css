@@ -280,7 +280,7 @@ p {
 
 /*------------------------------------FOOTER---------------------------------*/
 .outer {
-  height: 30vh;
+  height: 12rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -310,7 +310,7 @@ p {
 .outer .contact {
   width: 70%;
   max-width: 27rem;
-  height: 90%;
+  height: 12rem;
   overflow: hidden;
   position: relative;
   box-shadow: 0 10px 40px -10px rgba(0, 64, 128, 0.2);
@@ -423,6 +423,7 @@ p {
 footer {
   background-image: linear-gradient(#ffffff, #737272);
   padding: 1rem 0.5rem 0.5rem 0.5rem;
+  margin-top: 1rem;
 }
 footer .footer_container {
   display: grid;
@@ -449,10 +450,15 @@ footer .footer_container .middle {
 }
 footer .footer_container .middle .cookies {
   text-align: center;
-  width: 50%;
+}
+footer .footer_container .middle .cookies div {
+  width: 9rem;
 }
 footer .footer_container .middle .cookies div a {
   color: #000;
+}
+footer .footer_container .middle .copyright {
+  font-size: 0.75rem;
 }
 footer .footer_container .info {
   display: flex;
@@ -490,6 +496,18 @@ footer .footer_container .info a:hover {
   footer .footer_container .logo_img {
     padding-left: 0.5rem;
   }
+  footer .footer_container .middle {
+    font-size: 0.9rem;
+  }
+  footer .footer_container .middle .cookies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  footer .footer_container .middle .copyright {
+    font-size: 0.8rem;
+  }
   footer .footer_container .info a {
     font-size: 1.5rem;
   }
@@ -522,8 +540,9 @@ footer .footer_container .info a:hover {
   }
   footer .footer_container .middle .cookies {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    flex-direction: row;
   }
   footer .footer_container .middle .copyright {
     margin-top: 0.5rem;
