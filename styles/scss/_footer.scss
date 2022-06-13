@@ -1,6 +1,6 @@
 /*------------------------------------FOOTER---------------------------------*/
 .outer {
-    height: 30vh;
+    height: 12rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +29,7 @@
     .contact {
         width: 70%;
         max-width: 27rem;
-        height: 90%;
+        height: 12rem;
         overflow: hidden;
         position: relative;
         box-shadow: 0 10px 40px -10px rgba(0, 64, 128, 0.2);
@@ -145,6 +145,7 @@
   footer {
     background-image: linear-gradient($white,$allbcg);
     padding: 1rem 0.5rem 0.5rem 0.5rem;
+    margin-top: 1rem;
     .footer_container {
       display: grid;
       grid-template-columns: 25% auto 25%;
@@ -168,12 +169,15 @@
         flex-direction: column;
         .cookies {
           text-align: center;
-          width: 50%;
           div {
+            width: 9rem;
             a {
               color: $black;
             }
           }
+        }
+        .copyright{
+          font-size: 0.75rem;
         }
       }
       .info {
@@ -220,7 +224,18 @@
         .logo_img {
           padding-left: 0.5rem;
         }
-
+        .middle {
+          font-size: 0.9rem;
+          .cookies {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+          }
+          .copyright{
+            font-size: 0.8rem;
+          }
+        }
         .info {
           a {
             font-size: 1.5rem;
@@ -260,8 +275,9 @@
           font-size: 0.9rem;
           .cookies {
             display: flex;
-            justify-content: space-evenly;
+            justify-content: center;
             align-items: center;
+            flex-direction: row;
           }
           .copyright {
             margin-top: 0.5rem;
