@@ -13,6 +13,14 @@
     />
     <link rel="stylesheet" href="./styles/css/style.css" />
     <link rel="shortcut icon" href="./images/newfavicon.png" type="image/png">
+    <script type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+      emailjs.init("Z844fqXrk150a8kgu");
+    })();
+    </script>
   </head>
   <body>
     <!-- NAVBAR --> 
@@ -89,7 +97,7 @@
             alt=""
           />
           <h2>The SQ3R Method</h2>
-          <span class="topic time">Informative Study</span>
+          <span class="topic time">Reading Method</span>
           <!--For topics with colors-->
           <p>SQ3R (or SQRRR) is an acronym that stands for the five steps of the reading comprehension process.</p>
         </a>
@@ -176,10 +184,10 @@
           <div class="email-content">
               <h3 class="title">Join Us</h3>
               <h6 class="description">Sign up for updates via email.</h6>
-              <form class="form">
-                  <input class="input" type="email" placeholder="name@gmail.com" />
-                  <input class="submit" type="submit" value="Subscribe" />
-              </form>
+              <div class="form">
+                  <input class="input" id="email" type="email" placeholder="name@gmail.com" />
+                  <input class="submit" onclick="sendMail()" type="submit" value="Subscribe" />
+              </div>
           </div>
       </div>
       <div class="right-duck">
@@ -200,7 +208,7 @@
           </div>
           <div class="info">
               <a href=""><i class="fa-regular fa-envelope"></i></a>
-              <a href="https://github.com/ProjectHuntersWork/ProjectHuntersWork" target="_blank"><i class="fa-brands fa-github"></i></a>
+              <a href="https://github.com/Project-Hunters-Works" target="_blank"><i class="fa-brands fa-github"></i></a>
               <a href=""><i class="fa-brands fa-linkedin"></i></a>
           </div>
       </div>

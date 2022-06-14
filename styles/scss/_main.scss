@@ -7,6 +7,7 @@
     grid-gap: 2.4rem;
     margin: -6rem auto 4rem;
     padding: 0 1rem 1.6rem;
+    justify-content: center;
        
         .unit{
             background-color: #FFFFFF;
@@ -41,11 +42,11 @@
                 margin-bottom: 1.5vw;
             }
             p{
-                margin-bottom: 1.5vw;
+                margin: 2vw 0;
             }
             .topic{
                 border-radius: 0.4rem;
-                font-size: 1rem;
+                font-size: 0.7rem;
                 font-weight: 700;
                 padding: auto;
                 margin-bottom: 1.5vw;
