@@ -2661,6 +2661,54 @@ footer .footer_container .info a:hover {
   max-width: 100%;
   max-height: 100%;
 }
+.aboutMain-container .methot-text #about-contact {
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+.aboutMain-container .methot-text #about-contact h3 {
+  font-size: 1.5rem;
+}
+.aboutMain-container .methot-text #about-contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.aboutMain-container .methot-text #about-contact label {
+  font-weight: 700;
+  font-size: 1rem;
+}
+.aboutMain-container .methot-text #about-contact input {
+  border: none;
+  border-bottom: 1px solid #000;
+  width: 100%;
+}
+.aboutMain-container .methot-text #about-contact textarea {
+  width: 100%;
+  overflow: auto;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+.aboutMain-container .methot-text #about-contact input:focus, .aboutMain-container .methot-text #about-contact textarea:focus {
+  border-bottom: 1px solid orangered;
+  outline: none;
+}
+.aboutMain-container .methot-text #about-contact button {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 1rem 0;
+  background-color: orangered;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.aboutMain-container .methot-text #about-contact button:hover {
+  background-color: #000;
+}
+
 @media (max-width: 1280px) {
   .about-header {
     width: 90%;

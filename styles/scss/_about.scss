@@ -164,13 +164,62 @@
             max-height: 100%;
         }
 
-        h2 {
-            // font-weight:bold;
+        #about-contact{
+            padding:0 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            margin-top: 4rem;
+
+            h3{
+                font-size: 1.5rem;
+            }
+
+            form{
+                display: flex;
+                flex-direction: column;
+                gap: 1.5rem;
+            }
+
+            label{
+                font-weight: 700;
+                font-size: 1rem;
+            }
+            
+            input{
+                border: none;
+                border-bottom: 1px solid #000;
+                width: 100%;
+            }
+            
+            textarea{
+                width: 100%;
+                overflow: auto;
+                border: none;
+                border-bottom: 1px solid #000;
+            }
+            
+            input:focus, textarea:focus{
+                border-bottom:1px solid orangered;
+                outline: none;
+            }
+            
+            button{
+                font-size: 1.2rem;
+                font-weight: 600;
+                padding: 1rem 0;
+                background-color: orangered;
+                border: none;
+                color: #fff;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            
+            button:hover{
+                background-color: #000;
+            }
         }
 
-        h3 {
-            // font-weight: 800;
-        }
     }
 }
 
