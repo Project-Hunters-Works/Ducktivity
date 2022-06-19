@@ -26,7 +26,7 @@
     <!-- NAVBAR --> 
     <nav class="navbar navbar-expand-sm bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img src='./images/duckduck.png' width="100px" height="100px"> Ducktivity </a>
+        <a class="navbar-brand" href="index.html"><img src='./images/duckduck.png' width="100px" height="100px" alt="ductivity" title="ductivity"> Ducktivity </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -71,7 +71,7 @@
                         <button class="custom-btn btn-7"><span>ALL</span></button>
                       </div>
                       <div class="header__content--ss-st list" data-filter="time">
-                        <button class="custom-btn btn-7"><span>INFORMATIVE STUDY</span></button>
+                        <button class="custom-btn btn-7"><span>READING METHODS</span></button>
                       </div>
                       <div class="header__content--ss-dm list" data-filter="study">
                         <button class="custom-btn btn-7"><span>MEMORIZING STUDY</span></button>
@@ -82,19 +82,20 @@
                     </div>
               </div>
           </div>
-          <div class="header__content--img"><img src="./images/header-image.png" alt=""></div>
+          <div class="header__content--img"><img src="./images/header-image.png" alt="Studying Technique" title="Studying Technique"></div>
       </div>
   </header>
 
-    <!--MAIN CONTENT-->
-    <div class="grid">
-      
+  <!--MAIN CONTENT-->
+  <div class="grid">
+  
         <div class="unit" data-item="time">
           <a href="./methot-pages/methot-1.html" target="_blank">
           <img
             class="image"
             src="./images/SQ3R.png"
             alt="SQ3R Method"
+            title="SQ3R Method"
           />
           <h2>The SQ3R Method</h2>
           <span class="topic time">Reading Method</span>
@@ -108,7 +109,8 @@
         <img
           class="image"
           src="./images/retrievalpracticeIcon.png"
-          alt=""
+          alt="Retrieval Practice"
+          title="Retrieval Practice"
         />
         <h2>Retrieval Practice</h2>
         <span class="topic study">Memorizing Study</span>
@@ -120,8 +122,8 @@
         <img
           class="image"
           src="./images/spaced-practice-icon.png"
-          alt="Retrieval"
-          title="Retrieval"
+          alt="Spaced Practice"
+          title="Spaced Practice"
         />
         <h2>Spaced Practice</h2>
         <span class="topic study">Memorizing Study</span>
@@ -133,7 +135,8 @@
         <img
           class="image"
           src="./images/think-out-of-the-box-removebg-preview.png"
-          alt=""
+          alt="Leitner System"
+          title="Leitner System"
         />
         <h2>Leitner System</h2>
         <span class="topic study">Memorizing Study</span>
@@ -156,9 +159,10 @@
       <div class="unit" data-item="malak">
         <a href="./methot-pages/methot-6.html" target="_blank">
         <img
-          class="image"
+          class="image pomodoro"
           src="./images/pomodoro_icon.png" 
           alt="PomodoroIcon"
+          title="PomodoroIcon"
         />
         <h2>Pomodoro Technique</h2>
         <span class="topic malak">Time Based Study</span>
@@ -170,7 +174,8 @@
         <img
           class="image"
           src="./images/thievesIcon.png"
-          alt="Pomodoro Icon"
+          alt="Thieves Method"
+          title="Thieves Method"
         />
         <h2>THIEVES Method</h2>
         <span class="topic time">Reading Method</span>
@@ -182,8 +187,8 @@
         <img
           class="image"
           src="./images/mind-mapping-home.png"
-          alt="THIEVES"
-          title="THIEVES"
+          alt="Mind Mapping"
+          title="Mind Mapping"
         />
         <h2>Mind Mapping</h2>
         <span class="topic malak">Visual Study</span>
@@ -194,7 +199,7 @@
     <!-- FOOTER -->
     <div class="outer">
       <div class="left-duck">
-        <img src="./images/duckduck.png" alt="leftDuck">
+        <img src="./images/duckduck.png" alt="leftDuck" title="ductivity">
       </div>
       <div class="contact">
           <div class="rainbow"><span></span><span></span></div>
@@ -208,13 +213,13 @@
           </div>
       </div>
       <div class="right-duck">
-        <img src="./images/2duckduck.png" alt="rightDuck">
+        <img src="./images/2duckduck.png" alt="rightDuck" title="ductivity">
       </div>
   </div>
   <footer>
       <div class="footer_container">  
           <div class="logo">
-              <div class="logo_img"> <a href="index.html"><img src="./images/Project Hunters.png" alt="Logo"></a></div>
+              <div class="logo_img"> <a href="index.html"><img src="./images/Project Hunters.png" alt="Logo" title="Logo"></a></div>
           </div>
           <div class="middle">
               <div class="cookies">
@@ -224,9 +229,9 @@
               <div class="copyright"><span>&copy</span> Project Hunters 2022</div>
           </div>
           <div class="info">
-              <a href=""><i class="fa-regular fa-envelope"></i></a>
-              <a href="https://github.com/Project-Hunters-Works" target="_blank"><i class="fa-brands fa-github"></i></a>
-              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href=""><i class="fa-regular fa-envelope" title="Email"></i></a>
+              <a href="https://github.com/Project-Hunters-Works" target="_blank"><i class="fa-brands fa-github" title="Github"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin" title="LinkedIn"></i></a>
           </div>
       </div>
   </footer>
@@ -237,30 +242,5 @@
       crossorigin="anonymous"
     ></script>
     <script src="./scripts/script.js"></script>
-    <script>
-      let list = document.querySelectorAll('.list');
-      let itemBox = document.querySelectorAll('.unit');
-
-    for(let i=0; i<list.length; i++){
-      list[i].addEventListener('click', function(){
-        for(let j = 0; j < list.length; j++){
-          list[j].classList.remove('active');
-        }
-        this.classList.add('active');
-
-        let dataFilter = this.getAttribute('data-filter');
-
-        for( let k = 0; k<itemBox.length; k++){
-          itemBox[k].classList.remove('active');
-          itemBox[k].classList.add('hide')
-
-          if(itemBox[k].getAttribute('data-item') == dataFilter || dataFilter == "all"){
-            itemBox[k].classList.remove('hide');
-            itemBox[k].classList.add('active');
-          }
-        }
-      })
-    }
-    </script>
   </body>
 </html>
