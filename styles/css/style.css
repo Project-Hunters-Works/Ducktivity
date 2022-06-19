@@ -197,8 +197,9 @@ p {
   border-radius: 0.4rem;
   font-size: 0.7rem;
   font-weight: 700;
+  display: inline-block;
   padding: auto;
-  margin-bottom: 1.5vw;
+  margin-bottom: 0.5rem;
   text-transform: uppercase;
   border: 1px solid black;
 }
