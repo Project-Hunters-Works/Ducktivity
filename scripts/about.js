@@ -11,7 +11,7 @@ form.addEventListener('submit', (e)=>{
   };
     emailjs.send("service_fdwk1oy","template_7pl07er",params).then((res) => {
     console.log(res.status);
-    aboutContact.innerHTML = `<h3 class="about-feedback" style="text-align:center;">Thank you for your feedback<h3>`
+    aboutContact.innerHTML = `<h3 class="about-feedback ff" style="text-align:center;">Thank you for your feedback<h3>`
   })
   }
   else{
