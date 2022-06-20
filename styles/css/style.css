@@ -2666,6 +2666,7 @@ footer .footer_container .info a:hover {
   padding: 0 2rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 2rem;
   margin-top: 4rem;
 }

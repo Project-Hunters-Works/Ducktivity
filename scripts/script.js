@@ -1,7 +1,6 @@
 const emailContent = document.querySelector('.email-content');
-
+const form = document.querySelector('.form');
 function sendMail(){
-      
     if(emailValid(document.getElementById('email').value)){
       let params = {email_id : document.getElementById('email').value};
       emailjs.send("service_fdwk1oy","template_kxcd0ek",params).then((res) => {
@@ -11,9 +10,12 @@ function sendMail(){
     }
     else{
       alert('Please type a valid email address!')
-    }
-    
+    }  
 }  
+
+form.addEventListener('submit', (e)=>{
+  e.preventDefault();
+})
 
 function emailValid(email){
   let pattern=/^\w+@[a-z]+\.([a-z]{2,3})$/
