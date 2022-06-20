@@ -5,7 +5,7 @@ function sendMail(){
       let params = {email_id : document.getElementById('email').value};
       emailjs.send("service_fdwk1oy","template_kxcd0ek",params).then((res) => {
       console.log(res.status);
-      emailContent.innerHTML = `<h3 class="title">Thanks For Subscribing</h3>`;
+      emailContent.innerHTML = `<h3 class="title ff" >Thanks For Subscribing</h3>`;
     })
     }
     else{
