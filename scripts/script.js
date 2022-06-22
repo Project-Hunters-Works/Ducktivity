@@ -46,3 +46,15 @@ list[i].addEventListener('click', function(){
   }
 })
 }
+
+const grid = document.querySelector('.grid');
+
+window.addEventListener('resize', ()=>{
+  if(window.innerWidth < 1300) {
+    grid.setAttribute('id','scroll')
+  }
+})
+
+if(window.innerWidth < 1300) {
+  grid.setAttribute('id','scroll')
+}
