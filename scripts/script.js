@@ -58,3 +58,7 @@ window.addEventListener('resize', ()=>{
 if(window.innerWidth < 1300) {
   grid.setAttribute('id','scroll')
 }
+
+const yearDate=document.querySelector(".yearDate");
+
+yearDate.innerHTML=" " + new Date().getFullYear()
