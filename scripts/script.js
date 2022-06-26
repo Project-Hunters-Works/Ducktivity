@@ -1,3 +1,7 @@
+(function(){
+  emailjs.init("Z844fqXrk150a8kgu");
+})();
+
 const emailContent = document.querySelector('.email-content');
 const form = document.querySelector('.form');
 function sendMail(){
