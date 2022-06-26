@@ -16,7 +16,7 @@
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-sm bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html"><img src='../images/duckduck.png' title="Ducktivity" alt="ducktivity"  width="100px" height="100px"> Ducktivity
+            <a class="navbar-brand" href="../index.html"><img src='../images/duckduck.png' title="Ducktivity" alt="Ducktivity"  width="100px" height="100px"> Ducktivity
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,12 +47,12 @@
                 <p>Make what you learn permanent</p>
             </div>
             <div class="header-img">
-                <img src="../images/retrievalpracticeIcon.png" alt="retrieval" title="retrieval" width="150px" />
+                <img src="../images/retrievalpracticeIcon.png" alt="Retrieval" title="Retrieval" width="150px" />
             </div>
         </div>
         <div class="methot-text">
             <p>Retrieval practice is a learning technique where bringing information to mind with mental effort. This mental effort makes connetions, comparisons or predicitons as opposed to see all of them in front of you; in other words, when retrieve and bring information to mind, this mental challange produces durable long-term learning. </p>
-            <img src="../images/retrievalpractice.webp" alt="RetrievalMethod" title="RetrievalMethod" width="300px">
+            <img src="../images/retrievalpractice.webp" alt="Retrieval Method" title="Retrieval Method" width="300px">
             <p>This technique is considered as one of the best ways to learn.It a process of bringing information to mind from your memory. In this learning method,you don’t need any material like book,notebook, internet etc. Instead, you should put effort into recalling information. According to this method,reviewing something over and over again is not as useful as forcing yourself to recall.Because,when you review what you already know, it makes you feel better and you can persuade yourself “Oh! I know this topic very well.” But, this is short-term learning. The magic of this technique is that it provides long-term learning.</p>
             <p>As soon as you learn something- it doesn’t matter if it is too hard or too easy-,your brain starts to forget it.To avoid this situation, you should force yourself to recall it after learning and repeat it at weekly or montly periods.There are a bunch of ways to implement this technique.I will mention two of them.</p>
             <h3>Flash Cards</h3>
@@ -73,16 +73,15 @@
             </div>
             <div class="middle">
                 <div class="cookies">
-                    <div><a href="">Cookies</a></div>
-                    <div><a href="">Privacy Policy</a></div>
+                    <div><a href="../cookies.html">Cookies</a></div>
+                    <div><a href="../privacy-policy.html">Privacy Policy</a></div>
                 </div>
-                <div class="copyright"><span>&copy</span> Project Hunters 2022</div>
+                <div class="copyright"><span>&copy</span> Project Hunters<span class="yearDate"></span></div>
             </div>
             <div class="info">
-                <a href="https://ducktivity.co/about.html#name"><i class="fa-regular fa-envelope"></i></a>
-                <a href="https://github.com/ProjectHuntersWork/ProjectHuntersWork" target="_blank"><i
-                        class="fa-brands fa-github"></i></a>
-                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://ducktivity.co/about.html#name"><i class="fa-regular fa-envelope" title="Email"></i></a>
+                <a href="https://github.com/Project-Hunters-Works" target="_blank"><i class="fa-brands fa-github" title="Github"></i></a>
+                <a href="https://www.linkedin.com/company/82161038/" target="_blank"><i class="fa-brands fa-linkedin" title="LinkedIn"></i></a>
             </div>
         </div>
     </footer>
@@ -90,6 +89,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
+        <script>
+            const yearDate=document.querySelector(".yearDate");
+            yearDate.innerHTML=" " + new Date().getFullYear();
+        </script>
 </body>
 
 </html>

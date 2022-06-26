@@ -25,3 +25,6 @@ function emailValid(email){
    // return email.match(pattern) ? true:false
    return pattern.test(email)
 }
+
+const yearDate=document.querySelector(".yearDate");
+yearDate.innerHTML=" " + new Date().getFullYear()
