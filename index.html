@@ -208,9 +208,9 @@
           <div class="email-content">
               <h3 class="title">Join Us</h3>
               <h6 class="description">Sign up for updates via email.</h6>
-              <form class="form">
-                  <input class="input" id="email" type="email" placeholder="name@gmail.com" />
-                  <input class="submit" onclick="sendMail()" type="submit" value="Subscribe" />
+              <form class="form" action="insert.php" method="POST">
+                  <input class="input" id="email" type="email" name="email" placeholder="name@gmail.com" required/>
+                  <input class="submit" onclick="sendMail()" type="submit" name="submit" value="Subscribe" />
               </form>
           </div>
       </div>
