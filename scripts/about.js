@@ -21,7 +21,7 @@ form.addEventListener('submit', (e)=>{
 })
 
 function emailValid(email){
-  let pattern=/^\w+@[a-z]+\.([a-z]{2,3})$/
+  let pattern=/^[\w]+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
    // return email.match(pattern) ? true:false
    return pattern.test(email)
 }
