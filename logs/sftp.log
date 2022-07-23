@@ -1,0 +1,282 @@
+Jul 23 11:04:21 10.71.60.0 u108709333 Connection from 10.71.60.0 port 43422 on 74.208.59.252 port 22
+Jul 23 11:04:24 10.71.60.0 u108709333 Failed password for u108709333 from 10.71.60.0 port 43422 ssh2
+Jul 23 11:05:22 10.71.61.0 tmp108709333-7660 Connection from 10.71.61.0 port 43344 on 74.208.59.252 port 22
+Jul 23 11:05:22 10.71.61.0 tmp108709333-7660 Accepted password for tmp108709333-7660 from 10.71.61.0 port 43344 ssh2
+Jul 23 11:05:22 10.71.61.0 tmp108709333-7660 Starting session: subsystem 'sftp' for tmp108709333-7660 from 10.71.61.0 port 43344 id 0
+Jul 23 11:05:22 10.71.61.0 tmp108709333-7660 session opened for local user tmp108709333-7660 from [10.71.61.0]
+Jul 23 11:06:10 10.71.60.0 u108709333 Connection from 10.71.60.0 port 44114 on 74.208.59.252 port 22
+Jul 23 11:06:14 10.71.60.0 u108709333 Failed password for u108709333 from 10.71.60.0 port 44114 ssh2
+Jul 23 11:06:24 10.71.60.0 u108709333 Connection from 10.71.60.0 port 12872 on 74.208.59.252 port 22
+Jul 23 11:06:24 10.71.60.0 u108709333 Accepted password for u108709333 from 10.71.60.0 port 12872 ssh2
+Jul 23 11:06:24 10.71.60.0 u108709333 Starting session: subsystem 'sftp' for u108709333 from 10.71.60.0 port 12872 id 0
+Jul 23 11:06:24 10.71.60.0 u108709333 session opened for local user u108709333 from [10.71.60.0]
+Jul 23 11:06:49 10.71.61.0 tmp108709333-7660 open "/index.html" flags READ mode 0666
+Jul 23 11:06:49 10.71.61.0 tmp108709333-7660 close "/index.html" bytes read 11119 written 0
+Jul 23 11:06:49 10.71.61.0 tmp108709333-7660 [10.71.61.0|get|0|11119|0|0|0|2f696e6465782e68746d6c|]
+Jul 23 11:06:52 10.71.61.0 tmp108709333-5361 Connection from 10.71.61.0 port 43366 on 74.208.59.252 port 22
+Jul 23 11:06:53 10.71.61.0 tmp108709333-5361 Accepted password for tmp108709333-5361 from 10.71.61.0 port 43366 ssh2
+Jul 23 11:07:47 10.71.61.0 u108709333 Connection from 10.71.61.0 port 41684 on 74.208.59.252 port 22
+Jul 23 11:07:48 10.71.61.0 u108709333 Accepted password for u108709333 from 10.71.61.0 port 41684 ssh2
+Jul 23 11:07:47 10.71.61.0 u108709333 Connection from 10.71.61.0 port 41686 on 74.208.59.252 port 22
+Jul 23 11:07:48 10.71.61.0 u108709333 Accepted password for u108709333 from 10.71.61.0 port 41686 ssh2
+Jul 23 11:07:48 10.71.61.0 u108709333 Starting session: subsystem 'sftp' for u108709333 from 10.71.61.0 port 41684 id 0
+Jul 23 11:07:48 10.71.61.0 u108709333 Starting session: subsystem 'sftp' for u108709333 from 10.71.61.0 port 41686 id 0
+Jul 23 11:07:48 10.71.61.0 u108709333 session opened for local user u108709333 from [10.71.61.0]
+Jul 23 11:07:48 10.71.61.0 u108709333 session opened for local user u108709333 from [10.71.61.0]
+Jul 23 11:07:50 10.71.61.0 u108709333 open "/.htaccess" flags READ mode 0666
+Jul 23 11:07:50 10.71.61.0 u108709333 open "/.localized" flags READ mode 0666
+Jul 23 11:07:50 10.71.61.0 u108709333 close "/.localized" bytes read 0 written 0
+Jul 23 11:07:50 10.71.61.0 u108709333 [10.71.61.0|get|0|0|0|0|0|2f2e6c6f63616c697a6564|]
+Jul 23 11:07:50 10.71.61.0 u108709333 close "/.htaccess" bytes read 257 written 0
+Jul 23 11:07:50 10.71.61.0 u108709333 [10.71.61.0|get|0|257|0|0|0|2f2e6874616363657373|]
+Jul 23 11:07:50 10.71.61.0 u108709333 open "/about.html" flags READ mode 0666
+Jul 23 11:07:50 10.71.61.0 u108709333 open "/cookies.html" flags READ mode 0666
+Jul 23 11:07:51 10.71.61.0 u108709333 close "/about.html" bytes read 6569 written 0
+Jul 23 11:07:51 10.71.61.0 u108709333 [10.71.61.0|get|1|6569|0|0|0|2f61626f75742e68746d6c|]
+Jul 23 11:07:51 10.71.61.0 u108709333 close "/cookies.html" bytes read 11535 written 0
+Jul 23 11:07:51 10.71.61.0 u108709333 [10.71.61.0|get|1|11535|0|0|0|2f636f6f6b6965732e68746d6c|]
+Jul 23 11:07:51 10.71.61.0 u108709333 open "/insert.php" flags READ mode 0666
+Jul 23 11:07:51 10.71.61.0 u108709333 open "/privacy-policy.html" flags READ mode 0666
+Jul 23 11:07:52 10.71.61.0 u108709333 close "/insert.php" bytes read 537 written 0
+Jul 23 11:07:52 10.71.61.0 u108709333 [10.71.61.0|get|1|537|0|0|0|2f696e736572742e706870|]
+Jul 23 11:07:52 10.71.61.0 u108709333 close "/privacy-policy.html" bytes read 12424 written 0
+Jul 23 11:07:52 10.71.61.0 u108709333 [10.71.61.0|get|1|12424|0|0|0|2f707269766163792d706f6c6963792e68746d6c|]
+Jul 23 11:07:52 10.71.61.0 u108709333 open "/README.md" flags READ mode 0666
+Jul 23 11:07:52 10.71.61.0 u108709333 open "/robots.txt" flags READ mode 0666
+Jul 23 11:07:53 10.71.61.0 u108709333 close "/README.md" bytes read 220 written 0
+Jul 23 11:07:53 10.71.61.0 u108709333 [10.71.61.0|get|1|220|0|0|0|2f524541444d452e6d64|]
+Jul 23 11:07:53 10.71.61.0 u108709333 close "/robots.txt" bytes read 75 written 0
+Jul 23 11:07:53 10.71.61.0 u108709333 [10.71.61.0|get|1|75|0|0|0|2f726f626f74732e747874|]
+Jul 23 11:07:53 10.71.61.0 u108709333 open "/sitemap.xml" flags READ mode 0666
+Jul 23 11:07:54 10.71.61.0 u108709333 open "/googleb2e11bce11ee8c3c.html" flags READ mode 0666
+Jul 23 11:07:54 10.71.61.0 u108709333 close "/sitemap.xml" bytes read 2200 written 0
+Jul 23 11:07:54 10.71.61.0 u108709333 [10.71.61.0|get|1|2200|0|0|0|2f736974656d61702e786d6c|]
+Jul 23 11:07:54 10.71.61.0 u108709333 close "/googleb2e11bce11ee8c3c.html" bytes read 53 written 0
+Jul 23 11:07:54 10.71.61.0 u108709333 [10.71.61.0|get|0|53|0|0|0|2f676f6f676c65623265313162636531316565386333632e68746d6c|]
+Jul 23 11:07:54 10.71.61.0 u108709333 open "/index.html" flags READ mode 0666
+Jul 23 11:07:55 10.71.61.0 u108709333 close "/index.html" bytes read 11119 written 0
+Jul 23 11:07:55 10.71.61.0 u108709333 [10.71.61.0|get|1|11119|0|0|0|2f696e6465782e68746d6c|]
+Jul 23 11:07:55 10.71.61.0 u108709333 open "/method-pages/retrieval-practice.html" flags READ mode 0666
+Jul 23 11:07:55 10.71.61.0 u108709333 close "/method-pages/retrieval-practice.html" bytes read 8138 written 0
+Jul 23 11:07:55 10.71.61.0 u108709333 [10.71.61.0|get|0|8138|0|0|0|2f6d6574686f642d70616765732f72657472696576616c2d70726163746963652e68746d6c|]
+Jul 23 11:07:56 10.71.61.0 u108709333 open "/method-pages/spaced-practice.html" flags READ mode 0666
+Jul 23 11:07:56 10.71.61.0 u108709333 open "/method-pages/mind-mapping.html" flags READ mode 0666
+Jul 23 11:07:56 10.71.61.0 u108709333 close "/method-pages/spaced-practice.html" bytes read 8906 written 0
+Jul 23 11:07:56 10.71.61.0 u108709333 [10.71.61.0|get|0|8906|0|0|0|2f6d6574686f642d70616765732f7370616365642d70726163746963652e68746d6c|]
+Jul 23 11:07:56 10.71.61.0 u108709333 close "/method-pages/mind-mapping.html" bytes read 8169 written 0
+Jul 23 11:07:56 10.71.61.0 u108709333 [10.71.61.0|get|0|8169|0|0|0|2f6d6574686f642d70616765732f6d696e642d6d617070696e672e68746d6c|]
+Jul 23 11:07:57 10.71.61.0 u108709333 open "/method-pages/pomodoro-technique.html" flags READ mode 0666
+Jul 23 11:07:57 10.71.61.0 u108709333 open "/method-pages/THIEVES-method.html" flags READ mode 0666
+Jul 23 11:07:57 10.71.61.0 u108709333 close "/method-pages/pomodoro-technique.html" bytes read 7015 written 0
+Jul 23 11:07:57 10.71.61.0 u108709333 [10.71.61.0|get|0|7015|0|0|0|2f6d6574686f642d70616765732f706f6d6f646f726f2d746563686e697175652e68746d6c|]
+Jul 23 11:07:57 10.71.61.0 u108709333 close "/method-pages/THIEVES-method.html" bytes read 7683 written 0
+Jul 23 11:07:57 10.71.61.0 u108709333 [10.71.61.0|get|0|7683|0|0|0|2f6d6574686f642d70616765732f544849455645532d6d6574686f642e68746d6c|]
+Jul 23 11:07:58 10.71.61.0 u108709333 open "/method-pages/the-feynman-technique.html" flags READ mode 0666
+Jul 23 11:07:58 10.71.61.0 u108709333 open "/method-pages/the-SQ3R-method.html" flags READ mode 0666
+Jul 23 11:07:58 10.71.61.0 u108709333 close "/method-pages/the-feynman-technique.html" bytes read 7941 written 0
+Jul 23 11:07:58 10.71.61.0 u108709333 [10.71.61.0|get|0|7941|0|0|0|2f6d6574686f642d70616765732f7468652d6665796e6d616e2d746563686e697175652e68746d6c|]
+Jul 23 11:07:58 10.71.61.0 u108709333 close "/method-pages/the-SQ3R-method.html" bytes read 8218 written 0
+Jul 23 11:07:58 10.71.61.0 u108709333 [10.71.61.0|get|0|8218|0|0|0|2f6d6574686f642d70616765732f7468652d535133522d6d6574686f642e68746d6c|]
+Jul 23 11:07:59 10.71.61.0 u108709333 open "/method-pages/leitner-system.html" flags READ mode 0666
+Jul 23 11:07:59 10.71.61.0 u108709333 open "/method-pages/methot-9-template.html" flags READ mode 0666
+Jul 23 11:07:59 10.71.61.0 u108709333 close "/method-pages/leitner-system.html" bytes read 10107 written 0
+Jul 23 11:07:59 10.71.61.0 u108709333 [10.71.61.0|get|0|10107|0|0|0|2f6d6574686f642d70616765732f6c6569746e65722d73797374656d2e68746d6c|]
+Jul 23 11:07:59 10.71.61.0 u108709333 close "/method-pages/methot-9-template.html" bytes read 8403 written 0
+Jul 23 11:07:59 10.71.61.0 u108709333 [10.71.61.0|get|0|8403|0|0|0|2f6d6574686f642d70616765732f6d6574686f742d392d74656d706c6174652e68746d6c|]
+Jul 23 11:08:00 10.71.61.0 u108709333 open "/scripts/about.js" flags READ mode 0666
+Jul 23 11:08:00 10.71.61.0 u108709333 open "/scripts/script.js" flags READ mode 0666
+Jul 23 11:08:00 10.71.61.0 u108709333 close "/scripts/about.js" bytes read 999 written 0
+Jul 23 11:08:00 10.71.61.0 u108709333 [10.71.61.0|get|0|999|0|0|0|2f736372697074732f61626f75742e6a73|]
+Jul 23 11:08:01 10.71.61.0 u108709333 close "/scripts/script.js" bytes read 1830 written 0
+Jul 23 11:08:01 10.71.61.0 u108709333 [10.71.61.0|get|1|1830|0|0|0|2f736372697074732f7363726970742e6a73|]
+Jul 23 11:08:01 10.71.60.0 u108709333 sent status No such file
+Jul 23 11:08:01 10.71.61.0 u108709333 open "/styles/css/style.css" flags READ mode 0666
+Jul 23 11:08:02 10.71.61.0 u108709333 open "/styles/css/style.css.map" flags READ mode 0666
+Jul 23 11:08:02 10.71.61.0 u108709333 close "/styles/css/style.css" bytes read 67511 written 0
+Jul 23 11:08:02 10.71.61.0 u108709333 [10.71.61.0|get|1|67511|0|0|0|2f7374796c65732f6373732f7374796c652e637373|]
+Jul 23 11:08:02 10.71.61.0 u108709333 close "/styles/css/style.css.map" bytes read 14010 written 0
+Jul 23 11:08:02 10.71.61.0 u108709333 [10.71.61.0|get|0|14010|0|0|0|2f7374796c65732f6373732f7374796c652e6373732e6d6170|]
+Jul 23 11:08:03 10.71.61.0 u108709333 open "/styles/scss/_toolsguide.scss" flags READ mode 0666
+Jul 23 11:08:03 10.71.61.0 u108709333 open "/styles/scss/_templates.scss" flags READ mode 0666
+Jul 23 11:08:03 10.71.61.0 u108709333 close "/styles/scss/_toolsguide.scss" bytes read 0 written 0
+Jul 23 11:08:03 10.71.61.0 u108709333 [10.71.61.0|get|0|0|0|0|0|2f7374796c65732f736373732f5f746f6f6c7367756964652e73637373|]
+Jul 23 11:08:03 10.71.61.0 u108709333 close "/styles/scss/_templates.scss" bytes read 0 written 0
+Jul 23 11:08:03 10.71.61.0 u108709333 [10.71.61.0|get|0|0|0|0|0|2f7374796c65732f736373732f5f74656d706c617465732e73637373|]
+Jul 23 11:08:04 10.71.61.0 u108709333 open "/styles/scss/_cookies.scss" flags READ mode 0666
+Jul 23 11:08:04 10.71.61.0 u108709333 open "/styles/scss/_mixin.scss" flags READ mode 0666
+Jul 23 11:08:04 10.71.61.0 u108709333 close "/styles/scss/_mixin.scss" bytes read 0 written 0
+Jul 23 11:08:04 10.71.61.0 u108709333 [10.71.61.0|get|0|0|0|0|0|2f7374796c65732f736373732f5f6d6978696e2e73637373|]
+Jul 23 11:08:04 10.71.61.0 u108709333 close "/styles/scss/_cookies.scss" bytes read 8198 written 0
+Jul 23 11:08:04 10.71.61.0 u108709333 [10.71.61.0|get|0|8198|0|0|0|2f7374796c65732f736373732f5f636f6f6b6965732e73637373|]
+Jul 23 11:08:05 10.71.61.0 u108709333 open "/styles/scss/_variables.scss" flags READ mode 0666
+Jul 23 11:08:05 10.71.61.0 u108709333 open "/styles/scss/style.scss" flags READ mode 0666
+Jul 23 11:08:05 10.71.61.0 u108709333 close "/styles/scss/_variables.scss" bytes read 404 written 0
+Jul 23 11:08:05 10.71.61.0 u108709333 [10.71.61.0|get|0|404|0|0|0|2f7374796c65732f736373732f5f7661726961626c65732e73637373|]
+Jul 23 11:08:05 10.71.61.0 u108709333 close "/styles/scss/style.scss" bytes read 936 written 0
+Jul 23 11:08:05 10.71.61.0 u108709333 [10.71.61.0|get|0|936|0|0|0|2f7374796c65732f736373732f7374796c652e73637373|]
+Jul 23 11:08:06 10.71.61.0 u108709333 open "/styles/scss/_nav.scss" flags READ mode 0666
+Jul 23 11:08:06 10.71.61.0 u108709333 open "/styles/scss/_header.scss" flags READ mode 0666
+Jul 23 11:08:06 10.71.61.0 u108709333 close "/styles/scss/_nav.scss" bytes read 39 written 0
+Jul 23 11:08:06 10.71.61.0 u108709333 [10.71.61.0|get|0|39|0|0|0|2f7374796c65732f736373732f5f6e61762e73637373|]
+Jul 23 11:08:06 10.71.61.0 u108709333 close "/styles/scss/_header.scss" bytes read 3564 written 0
+Jul 23 11:08:06 10.71.61.0 u108709333 [10.71.61.0|get|0|3564|0|0|0|2f7374796c65732f736373732f5f6865616465722e73637373|]
+Jul 23 11:08:07 10.71.61.0 u108709333 open "/styles/scss/_main.scss" flags READ mode 0666
+Jul 23 11:08:07 10.71.61.0 u108709333 open "/styles/scss/_about.scss" flags READ mode 0666
+Jul 23 11:08:07 10.71.61.0 u108709333 close "/styles/scss/_main.scss" bytes read 4397 written 0
+Jul 23 11:08:07 10.71.61.0 u108709333 [10.71.61.0|get|0|4397|0|0|0|2f7374796c65732f736373732f5f6d61696e2e73637373|]
+Jul 23 11:08:07 10.71.61.0 u108709333 close "/styles/scss/_about.scss" bytes read 7995 written 0
+Jul 23 11:08:07 10.71.61.0 u108709333 [10.71.61.0|get|0|7995|0|0|0|2f7374796c65732f736373732f5f61626f75742e73637373|]
+Jul 23 11:08:08 10.71.61.0 u108709333 open "/styles/scss/_footer.scss" flags READ mode 0666
+Jul 23 11:08:08 10.71.61.0 u108709333 close "/styles/scss/_footer.scss" bytes read 8064 written 0
+Jul 23 11:08:08 10.71.61.0 u108709333 [10.71.61.0|get|0|8064|0|0|0|2f7374796c65732f736373732f5f666f6f7465722e73637373|]
+Jul 23 11:08:08 10.71.61.0 u108709333 open "/styles/scss/methots-scss/_methot-5.scss" flags READ mode 0666
+Jul 23 11:08:09 10.71.61.0 u108709333 close "/styles/scss/methots-scss/_methot-5.scss" bytes read 6086 written 0
+Jul 23 11:08:09 10.71.61.0 u108709333 [10.71.61.0|get|1|6086|0|0|0|2f7374796c65732f736373732f6d6574686f74732d736373732f5f6d6574686f742d352e73637373|]
+Jul 23 11:08:09 10.71.61.0 u108709333 open "/styles/scss/methots-scss/_methot-6.scss" flags READ mode 0666
+Jul 23 11:08:09 10.71.61.0 u108709333 open "/styles/scss/methots-scss/_methot-3.scss" flags READ mode 0666
+Jul 23 11:08:09 10.71.61.0 u108709333 close "/styles/scss/methots-scss/_methot-6.scss" bytes read 6086 written 0
+Jul 23 11:08:09 10.71.61.0 u108709333 [10.71.61.0|get|0|6086|0|0|0|2f7374796c65732f736373732f6d6574686f74732d736373732f5f6d6574686f742d362e73637373|]
+Jul 23 11:08:10 10.71.61.0 u108709333 close "/styles/scss/methots-scss/_methot-3.scss" bytes read 6086 written 0
+Jul 23 11:08:10 10.71.61.0 u108709333 [10.71.61.0|get|1|6086|0|0|0|2f7374796c65732f736373732f6d6574686f74732d736373732f5f6d6574686f742d332e73637373|]
+Jul 23 11:08:10 10.71.61.0 u108709333 open "/styles/scss/methots-scss/_methot-4.scss" flags READ mode 0666
+Jul 23 11:08:10 10.71.61.0 u108709333 open "/styles/scss/methots-scss/_methot-9.scss" flags READ mode 0666
+Jul 23 11:08:10 10.71.61.0 u108709333 close "/styles/scss/methots-scss/_methot-4.scss" bytes read 6090 written 0
+Jul 23 11:08:10 10.71.61.0 u108709333 [10.71.61.0|get|0|6090|0|0|0|2f7374796c65732f736373732f6d6574686f74732d736373732f5f6d6574686f742d342e73637373|]
+Jul 23 11:08:10 10.71.61.0 u108709333 close "/styles/scss/methots-scss/_methot-9.scss" bytes read 6086 written 0
+Jul 23 11:08:10 10.71.61.0 u108709333 [10.71.61.0|get|0|6086|0|0|0|2f7374796c65732f736373732f6d6574686f74732d736373732f5f6d6574686f742d392e73637373|]
+Jul 23 11:08:11 10.71.61.0 u108709333 open "/styles/scss/methots-scss/_methot-7.scss" flags READ mode 0666
+Jul 23 11:08:11 10.71.61.0 u108709333 open "/styles/scss/methots-scss/_methot-8.scss" flags READ mode 0666
+Jul 23 11:08:11 10.71.61.0 u108709333 close "/styles/scss/methots-scss/_methot-7.scss" bytes read 6086 written 0
+Jul 23 11:08:11 10.71.61.0 u108709333 [10.71.61.0|get|0|6086|0|0|0|2f7374796c65732f736373732f6d6574686f74732d736373732f5f6d6574686f742d372e73637373|]
+Jul 23 11:08:11 10.71.61.0 u108709333 close "/styles/scss/methots-scss/_methot-8.scss" bytes read 6086 written 0
+Jul 23 11:08:11 10.71.61.0 u108709333 [10.71.61.0|get|0|6086|0|0|0|2f7374796c65732f736373732f6d6574686f74732d736373732f5f6d6574686f742d382e73637373|]
+Jul 23 11:08:12 10.71.61.0 u108709333 open "/styles/scss/methots-scss/_methot-1.scss" flags READ mode 0666
+Jul 23 11:08:12 10.71.61.0 u108709333 open "/styles/scss/methots-scss/_methot-2.scss" flags READ mode 0666
+Jul 23 11:08:12 10.71.61.0 u108709333 close "/styles/scss/methots-scss/_methot-1.scss" bytes read 6086 written 0
+Jul 23 11:08:12 10.71.61.0 u108709333 [10.71.61.0|get|0|6086|0|0|0|2f7374796c65732f736373732f6d6574686f74732d736373732f5f6d6574686f742d312e73637373|]
+Jul 23 11:08:12 10.71.61.0 u108709333 close "/styles/scss/methots-scss/_methot-2.scss" bytes read 6086 written 0
+Jul 23 11:08:12 10.71.61.0 u108709333 [10.71.61.0|get|0|6086|0|0|0|2f7374796c65732f736373732f6d6574686f74732d736373732f5f6d6574686f742d322e73637373|]
+Jul 23 11:08:13 10.71.61.0 u108709333 open "/images/SQ3R - 1.png" flags READ mode 0666
+Jul 23 11:08:13 10.71.61.0 u108709333 open "/images/duckduck1.png" flags READ mode 0666
+Jul 23 11:08:14 10.71.61.0 u108709333 close "/images/SQ3R - 1.png" bytes read 7466 written 0
+Jul 23 11:08:14 10.71.61.0 u108709333 [10.71.61.0|get|1|7466|0|0|0|2f696d616765732f53513352202d20312e706e67|]
+Jul 23 11:08:14 10.71.61.0 u108709333 close "/images/duckduck1.png" bytes read 10062 written 0
+Jul 23 11:08:14 10.71.61.0 u108709333 [10.71.61.0|get|1|10062|0|0|0|2f696d616765732f6475636b6475636b312e706e67|]
+Jul 23 11:08:14 10.71.61.0 u108709333 open "/images/Project Hunters.png" flags READ mode 0666
+Jul 23 11:08:14 10.71.61.0 u108709333 open "/images/pomodoro_icon.png" flags READ mode 0666
+Jul 23 11:08:15 10.71.61.0 u108709333 close "/images/Project Hunters.png" bytes read 1942 written 0
+Jul 23 11:08:15 10.71.61.0 u108709333 [10.71.61.0|get|1|1942|0|0|0|2f696d616765732f50726f6a6563742048756e746572732e706e67|]
+Jul 23 11:08:15 10.71.61.0 u108709333 close "/images/pomodoro_icon.png" bytes read 795 written 0
+Jul 23 11:08:15 10.71.61.0 u108709333 [10.71.61.0|get|1|795|0|0|0|2f696d616765732f706f6d6f646f726f5f69636f6e2e706e67|]
+Jul 23 11:08:15 10.71.61.0 u108709333 open "/images/preview.gif" flags READ mode 0666
+Jul 23 11:08:15 10.71.61.0 u108709333 open "/images/mind-mapping-page.png" flags READ mode 0666
+Jul 23 11:08:16 10.71.61.0 u108709333 close "/images/mind-mapping-page.png" bytes read 6323 written 0
+Jul 23 11:08:16 10.71.61.0 u108709333 [10.71.61.0|get|1|6323|0|0|0|2f696d616765732f6d696e642d6d617070696e672d706167652e706e67|]
+Jul 23 11:08:16 10.71.61.0 u108709333 open "/images/Pomodoro_6.png" flags READ mode 0666
+Jul 23 11:08:17 10.71.61.0 u108709333 close "/images/Pomodoro_6.png" bytes read 37910 written 0
+Jul 23 11:08:17 10.71.61.0 u108709333 [10.71.61.0|get|1|37910|0|0|0|2f696d616765732f506f6d6f646f726f5f362e706e67|]
+Jul 23 11:08:17 10.71.61.0 u108709333 close "/images/preview.gif" bytes read 2825421 written 0
+Jul 23 11:08:17 10.71.61.0 u108709333 [10.71.61.0|get|2|2825421|0|0|0|2f696d616765732f707265766965772e676966|]
+Jul 23 11:08:17 10.71.61.0 u108709333 open "/images/mind-mapping-2.png" flags READ mode 0666
+Jul 23 11:08:17 10.71.61.0 u108709333 open "/images/mind-mapping-home.png" flags READ mode 0666
+Jul 23 11:08:18 10.71.61.0 u108709333 close "/images/mind-mapping-2.png" bytes read 18811 written 0
+Jul 23 11:08:18 10.71.61.0 u108709333 [10.71.61.0|get|1|18811|0|0|0|2f696d616765732f6d696e642d6d617070696e672d322e706e67|]
+Jul 23 11:08:18 10.71.61.0 u108709333 close "/images/mind-mapping-home.png" bytes read 9749 written 0
+Jul 23 11:08:18 10.71.61.0 u108709333 [10.71.61.0|get|1|9749|0|0|0|2f696d616765732f6d696e642d6d617070696e672d686f6d652e706e67|]
+Jul 23 11:08:18 10.71.61.0 u108709333 open "/images/2duckduck.png" flags READ mode 0666
+Jul 23 11:08:18 10.71.61.0 u108709333 open "/images/250px-Leitner_system_animation.gif" flags READ mode 0666
+Jul 23 11:08:19 10.71.61.0 u108709333 close "/images/2duckduck.png" bytes read 10059 written 0
+Jul 23 11:08:19 10.71.61.0 u108709333 [10.71.61.0|get|1|10059|0|0|0|2f696d616765732f326475636b6475636b2e706e67|]
+Jul 23 11:08:19 10.71.61.0 u108709333 close "/images/250px-Leitner_system_animation.gif" bytes read 20785 written 0
+Jul 23 11:08:19 10.71.61.0 u108709333 [10.71.61.0|get|1|20785|0|0|0|2f696d616765732f32353070782d4c6569746e65725f73797374656d5f616e696d6174696f6e2e676966|]
+Jul 23 11:08:19 10.71.61.0 u108709333 open "/images/mind-mapping-1.png" flags READ mode 0666
+Jul 23 11:08:19 10.71.61.0 u108709333 open "/images/Leitner_system.svg.png" flags READ mode 0666
+Jul 23 11:08:20 10.71.61.0 u108709333 close "/images/Leitner_system.svg.png" bytes read 39491 written 0
+Jul 23 11:08:20 10.71.61.0 u108709333 [10.71.61.0|get|1|39491|0|0|0|2f696d616765732f4c6569746e65725f73797374656d2e7376672e706e67|]
+Jul 23 11:08:20 10.71.61.0 u108709333 close "/images/mind-mapping-1.png" bytes read 19145 written 0
+Jul 23 11:08:20 10.71.61.0 u108709333 [10.71.61.0|get|1|19145|0|0|0|2f696d616765732f6d696e642d6d617070696e672d312e706e67|]
+Jul 23 11:08:20 10.71.61.0 u108709333 open "/images/think-out-of-the-box-removebg-preview.png" flags READ mode 0666
+Jul 23 11:08:20 10.71.61.0 u108709333 open "/images/web-programming.png" flags READ mode 0666
+Jul 23 11:08:21 10.71.61.0 u108709333 close "/images/think-out-of-the-box-removebg-preview.png" bytes read 12684 written 0
+Jul 23 11:08:21 10.71.61.0 u108709333 [10.71.61.0|get|1|12684|0|0|0|2f696d616765732f7468696e6b2d6f75742d6f662d7468652d626f782d72656d6f766562672d707265766965772e706e67|]
+Jul 23 11:08:21 10.71.61.0 u108709333 close "/images/web-programming.png" bytes read 2891 written 0
+Jul 23 11:08:21 10.71.61.0 u108709333 [10.71.61.0|get|1|2891|0|0|0|2f696d616765732f7765622d70726f6772616d6d696e672e706e67|]
+Jul 23 11:08:21 10.71.61.0 u108709333 open "/images/SQ3R.png" flags READ mode 0666
+Jul 23 11:08:21 10.71.61.0 u108709333 open "/images/thievesIcon.png" flags READ mode 0666
+Jul 23 11:08:22 10.71.61.0 u108709333 close "/images/SQ3R.png" bytes read 1426 written 0
+Jul 23 11:08:22 10.71.61.0 u108709333 [10.71.61.0|get|1|1426|0|0|0|2f696d616765732f535133522e706e67|]
+Jul 23 11:08:22 10.71.61.0 u108709333 close "/images/thievesIcon.png" bytes read 13136 written 0
+Jul 23 11:08:22 10.71.61.0 u108709333 [10.71.61.0|get|1|13136|0|0|0|2f696d616765732f7468696576657349636f6e2e706e67|]
+Jul 23 11:08:22 10.71.61.0 u108709333 open "/images/spaced-practice-icon.png" flags READ mode 0666
+Jul 23 11:08:22 10.71.61.0 u108709333 open "/images/Spaced-Practice-pic.jpg" flags READ mode 0666
+Jul 23 11:08:23 10.71.61.0 u108709333 close "/images/spaced-practice-icon.png" bytes read 1381 written 0
+Jul 23 11:08:23 10.71.61.0 u108709333 [10.71.61.0|get|1|1381|0|0|0|2f696d616765732f7370616365642d70726163746963652d69636f6e2e706e67|]
+Jul 23 11:08:23 10.71.61.0 u108709333 close "/images/Spaced-Practice-pic.jpg" bytes read 28340 written 0
+Jul 23 11:08:23 10.71.61.0 u108709333 [10.71.61.0|get|1|28340|0|0|0|2f696d616765732f5370616365642d50726163746963652d7069632e6a7067|]
+Jul 23 11:08:23 10.71.61.0 u108709333 open "/images/scrollPaper.webp" flags READ mode 0666
+Jul 23 11:08:23 10.71.61.0 u108709333 open "/images/Space-Practide-pic2.png" flags READ mode 0666
+Jul 23 11:08:24 10.71.61.0 u108709333 close "/images/scrollPaper.webp" bytes read 12142 written 0
+Jul 23 11:08:24 10.71.61.0 u108709333 [10.71.61.0|get|1|12142|0|0|0|2f696d616765732f7363726f6c6c50617065722e77656270|]
+Jul 23 11:08:24 10.71.61.0 u108709333 close "/images/Space-Practide-pic2.png" bytes read 80844 written 0
+Jul 23 11:08:24 10.71.61.0 u108709333 [10.71.61.0|get|1|80844|0|0|0|2f696d616765732f53706163652d50726163746964652d706963322e706e67|]
+Jul 23 11:08:24 10.71.61.0 u108709333 open "/images/retrievalpractice.webp" flags READ mode 0666
+Jul 23 11:08:24 10.71.61.0 u108709333 open "/images/retrievalpracticeIcon.png" flags READ mode 0666
+Jul 23 11:08:24 10.71.61.0 u108709333 close "/images/retrievalpractice.webp" bytes read 27924 written 0
+Jul 23 11:08:24 10.71.61.0 u108709333 [10.71.61.0|get|0|27924|0|0|0|2f696d616765732f72657472696576616c70726163746963652e77656270|]
+Jul 23 11:08:25 10.71.61.0 u108709333 close "/images/retrievalpracticeIcon.png" bytes read 10172 written 0
+Jul 23 11:08:25 10.71.61.0 u108709333 [10.71.61.0|get|1|10172|0|0|0|2f696d616765732f72657472696576616c707261637469636549636f6e2e706e67|]
+Jul 23 11:08:25 10.71.61.0 u108709333 open "/images/duckduck.png" flags READ mode 0666
+Jul 23 11:08:25 10.71.61.0 u108709333 open "/images/ducPreview animation.gif" flags READ mode 0666
+Jul 23 11:08:25 10.71.61.0 u108709333 close "/images/duckduck.png" bytes read 5060 written 0
+Jul 23 11:08:25 10.71.61.0 u108709333 [10.71.61.0|get|0|5060|0|0|0|2f696d616765732f6475636b6475636b2e706e67|]
+Jul 23 11:08:26 10.71.61.0 u108709333 open "/images/423px-Leitner_system_alternative_no_text.svg.png" flags READ mode 0666
+Jul 23 11:08:27 10.71.61.0 u108709333 close "/images/423px-Leitner_system_alternative_no_text.svg.png" bytes read 3406 written 0
+Jul 23 11:08:27 10.71.61.0 u108709333 [10.71.61.0|get|1|3406|0|0|0|2f696d616765732f34323370782d4c6569746e65725f73797374656d5f616c7465726e61746976655f6e6f5f746578742e7376672e706e67|]
+Jul 23 11:08:27 10.71.61.0 u108709333 close "/images/ducPreview animation.gif" bytes read 9187371 written 0
+Jul 23 11:08:27 10.71.61.0 u108709333 [10.71.61.0|get|2|9187371|0|0|0|2f696d616765732f6475635072657669657720616e696d6174696f6e2e676966|]
+Jul 23 11:08:27 10.71.61.0 u108709333 open "/images/1920px-Leitner_system_alternative.svg.png" flags READ mode 0666
+Jul 23 11:08:27 10.71.61.0 u108709333 open "/images/header-image.png" flags READ mode 0666
+Jul 23 11:08:28 10.71.61.0 u108709333 close "/images/1920px-Leitner_system_alternative.svg.png" bytes read 33463 written 0
+Jul 23 11:08:28 10.71.61.0 u108709333 [10.71.61.0|get|1|33463|0|0|0|2f696d616765732f3139323070782d4c6569746e65725f73797374656d5f616c7465726e61746976652e7376672e706e67|]
+Jul 23 11:08:28 10.71.61.0 u108709333 close "/images/header-image.png" bytes read 21981 written 0
+Jul 23 11:08:28 10.71.61.0 u108709333 [10.71.61.0|get|1|21981|0|0|0|2f696d616765732f6865616465722d696d6167652e706e67|]
+Jul 23 11:08:28 10.71.61.0 u108709333 open "/images/home-page-hero-refreshed-v3.avif" flags READ mode 0666
+Jul 23 11:08:28 10.71.61.0 u108709333 open "/images/favicon.png" flags READ mode 0666
+Jul 23 11:08:29 10.71.61.0 u108709333 close "/images/home-page-hero-refreshed-v3.avif" bytes read 51992 written 0
+Jul 23 11:08:29 10.71.61.0 u108709333 [10.71.61.0|get|1|51992|0|0|0|2f696d616765732f686f6d652d706167652d6865726f2d7265667265736865642d76332e61766966|]
+Jul 23 11:08:29 10.71.61.0 u108709333 close "/images/favicon.png" bytes read 5881 written 0
+Jul 23 11:08:29 10.71.61.0 u108709333 [10.71.61.0|get|1|5881|0|0|0|2f696d616765732f66617669636f6e2e706e67|]
+Jul 23 11:08:29 10.71.61.0 u108709333 open "/images/feynmen technique.png" flags READ mode 0666
+Jul 23 11:08:30 10.71.61.0 u108709333 close "/images/feynmen technique.png" bytes read 56631 written 0
+Jul 23 11:08:30 10.71.61.0 u108709333 [10.71.61.0|get|1|56631|0|0|0|2f696d616765732f6665796e6d656e20746563686e697175652e706e67|]
+Jul 23 11:08:30 10.71.61.0 u108709333 open "/logs/access.log.29.4.gz" flags READ mode 0666
+Jul 23 11:08:31 10.71.61.0 u108709333 close "/logs/access.log.29.4.gz" bytes read 3326 written 0
+Jul 23 11:08:31 10.71.61.0 u108709333 [10.71.61.0|get|1|3326|0|0|0|2f6c6f67732f6163636573732e6c6f672e32392e342e677a|]
+Jul 23 11:08:31 10.71.61.0 u108709333 open "/logs/access.log.29.2.gz" flags READ mode 0666
+Jul 23 11:08:31 10.71.61.0 u108709333 open "/logs/access.log.28.7.gz" flags READ mode 0666
+Jul 23 11:08:31 10.71.61.0 u108709333 close "/logs/access.log.29.2.gz" bytes read 2992 written 0
+Jul 23 11:08:31 10.71.61.0 u108709333 [10.71.61.0|get|0|2992|0|0|0|2f6c6f67732f6163636573732e6c6f672e32392e322e677a|]
+Jul 23 11:08:32 10.71.61.0 u108709333 close "/logs/access.log.28.7.gz" bytes read 3086 written 0
+Jul 23 11:08:32 10.71.61.0 u108709333 [10.71.61.0|get|1|3086|0|0|0|2f6c6f67732f6163636573732e6c6f672e32382e372e677a|]
+Jul 23 11:08:32 10.71.61.0 u108709333 open "/logs/access.log.28.5.gz" flags READ mode 0666
+Jul 23 11:08:32 10.71.61.0 u108709333 open "/logs/access.log.28.4.gz" flags READ mode 0666
+Jul 23 11:08:32 10.71.61.0 u108709333 close "/logs/access.log.28.5.gz" bytes read 3277 written 0
+Jul 23 11:08:32 10.71.61.0 u108709333 [10.71.61.0|get|0|3277|0|0|0|2f6c6f67732f6163636573732e6c6f672e32382e352e677a|]
+Jul 23 11:08:32 10.71.61.0 u108709333 close "/logs/access.log.28.4.gz" bytes read 2719 written 0
+Jul 23 11:08:32 10.71.61.0 u108709333 [10.71.61.0|get|0|2719|0|0|0|2f6c6f67732f6163636573732e6c6f672e32382e342e677a|]
+Jul 23 11:08:33 10.71.61.0 u108709333 open "/logs/access.log.28.3.gz" flags READ mode 0666
+Jul 23 11:08:33 10.71.61.0 u108709333 open "/logs/access.log.28.2.gz" flags READ mode 0666
+Jul 23 11:08:33 10.71.61.0 u108709333 close "/logs/access.log.28.3.gz" bytes read 3399 written 0
+Jul 23 11:08:33 10.71.61.0 u108709333 [10.71.61.0|get|0|3399|0|0|0|2f6c6f67732f6163636573732e6c6f672e32382e332e677a|]
+Jul 23 11:08:33 10.71.61.0 u108709333 close "/logs/access.log.28.2.gz" bytes read 4621 written 0
+Jul 23 11:08:33 10.71.61.0 u108709333 [10.71.61.0|get|0|4621|0|0|0|2f6c6f67732f6163636573732e6c6f672e32382e322e677a|]
+Jul 23 11:08:34 10.71.61.0 u108709333 open "/logs/access.log.28.1.gz" flags READ mode 0666
+Jul 23 11:08:34 10.71.61.0 u108709333 open "/logs/access.log.26.gz" flags READ mode 0666
+Jul 23 11:08:34 10.71.61.0 u108709333 close "/logs/access.log.28.1.gz" bytes read 7949 written 0
+Jul 23 11:08:34 10.71.61.0 u108709333 [10.71.61.0|get|0|7949|0|0|0|2f6c6f67732f6163636573732e6c6f672e32382e312e677a|]
+Jul 23 11:08:34 10.71.61.0 u108709333 close "/logs/access.log.26.gz" bytes read 28308 written 0
+Jul 23 11:08:34 10.71.61.0 u108709333 [10.71.61.0|get|0|28308|0|0|0|2f6c6f67732f6163636573732e6c6f672e32362e677a|]
+Jul 23 11:08:34 10.71.61.0 u108709333 open "/logs/sftp.log.27.gz" flags READ mode 0666
+Jul 23 11:08:35 10.71.61.0 u108709333 open "/logs/sftp.log" flags READ mode 0666
+Jul 23 11:08:35 10.71.61.0 u108709333 close "/logs/sftp.log.27.gz" bytes read 4605 written 0
+Jul 23 11:08:35 10.71.61.0 u108709333 [10.71.61.0|get|1|4605|0|0|0|2f6c6f67732f736674702e6c6f672e32372e677a|]

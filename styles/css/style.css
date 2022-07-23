@@ -470,23 +470,12 @@ footer .footer_container .info {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  flex-direction: column;
   padding-right: 0.2rem;
 }
-footer .footer_container .info .github {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-footer .footer_container .info .twiter {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 footer .footer_container .info a {
+  padding: 0.3rem;
   color: #333;
   font-size: 1.2rem;
-  padding: 0rem 0.3rem;
 }
 footer .footer_container .info a:hover {
   color: #000;
@@ -526,7 +515,7 @@ footer .footer_container .info a:hover {
     font-size: 0.8rem;
   }
   footer .footer_container .info a {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 }
 @media (min-width: 650px) {
@@ -564,11 +553,8 @@ footer .footer_container .info a:hover {
   footer .footer_container .middle .copyright {
     margin-top: 0.5rem;
   }
-  footer .footer_container .info {
-    flex-direction: row;
-  }
-  footer .footer_container .info p a {
-    font-size: 1.9rem;
+  footer .footer_container .info a {
+    font-size: 1.8rem;
     padding: 0.5rem;
   }
 }
@@ -598,7 +584,6 @@ footer .footer_container .info a:hover {
   }
   footer .footer_container .info a {
     font-size: 2.3rem;
-    padding: 0.5rem;
   }
 }
 .methot-1__topcolor {
